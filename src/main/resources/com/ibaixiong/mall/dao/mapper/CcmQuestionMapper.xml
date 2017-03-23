@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ibaixiong.mall.dao.CcmQuestionDao" >
+  <resultMap id="BaseResultMap" type="com.ibaixiong.entity.CcmQuestion" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="coustomer_name" property="coustomerName" jdbcType="VARCHAR" />
+    <result column="call_me" property="callMe" jdbcType="VARCHAR" />
+    <result column="user_id" property="userId" jdbcType="CHAR" />
+    <result column="tel" property="tel" jdbcType="VARCHAR" />
+    <result column="cc_time" property="ccTime" jdbcType="TIMESTAMP" />
+    <result column="cc_type_id" property="ccTypeId" jdbcType="BIGINT" />
+    <result column="admin_id" property="adminId" jdbcType="BIGINT" />
+    <result column="assign_time" property="assignTime" jdbcType="TIMESTAMP" />
+    <result column="cs_memo" property="csMemo" jdbcType="VARCHAR" />
+    <result column="customers_memo" property="customersMemo" jdbcType="VARCHAR" />
+    <result column="rate" property="rate" jdbcType="TINYINT" />
+    <result column="process_status" property="processStatus" jdbcType="TINYINT" />
+    <result column="create_date_time" property="createDateTime" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="TINYINT" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, coustomer_name, call_me, user_id, tel, cc_time, cc_type_id, admin_id, assign_time, 
+    cs_memo, customers_memo, rate, process_status, create_date_time, status
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_ccm_question
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from tbl_ccm_question
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.ibaixiong.entity.CcmQuestion" >
+    insert into tbl_ccm_question (id, coustomer_name, call_me, 
+      user_id, tel, cc_time, 
+      cc_type_id, admin_id, assign_time, 
+      cs_memo, customers_memo, rate, 
+      process_status, create_date_time, status
+      )
+    values (#{id,jdbcType=BIGINT}, #{coustomerName,jdbcType=VARCHAR}, #{callMe,jdbcType=VARCHAR}, 
+      #{userId,jdbcType=CHAR}, #{tel,jdbcType=VARCHAR}, #{ccTime,jdbcType=TIMESTAMP}, 
+      #{ccTypeId,jdbcType=BIGINT}, #{adminId,jdbcType=BIGINT}, #{assignTime,jdbcType=TIMESTAMP}, 
+      #{csMemo,jdbcType=VARCHAR}, #{customersMemo,jdbcType=VARCHAR}, #{rate,jdbcType=TINYINT}, 
+      #{processStatus,jdbcType=TINYINT}, #{createDateTime,jdbcType=TIMESTAMP}, #{status,jdbcType=TINYINT}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ibaixiong.entity.CcmQuestion" >
+    insert into tbl_ccm_question
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="coustomerName != null" >
+        coustomer_name,
+      </if>
+      <if test="callMe != null" >
+        call_me,
+      </if>
+      <if test="userId != null" >
+        user_id,
+      </if>
+      <if test="tel != null" >
+        tel,
+      </if>
+      <if test="ccTime != null" >
+        cc_time,
+      </if>
+      <if test="ccTypeId != null" >
+        cc_type_id,
+      </if>
+      <if test="adminId != null" >
+        admin_id,
+      </if>
+      <if test="assignTime != null" >
+        assign_time,
+      </if>
+      <if test="csMemo != null" >
+        cs_memo,
+      </if>
+      <if test="customersMemo != null" >
+        customers_memo,
+      </if>
+      <if test="rate != null" >
+        rate,
+      </if>
+      <if test="processStatus != null" >
+        process_status,
+      </if>
+      <if test="createDateTime != null" >
+        create_date_time,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="coustomerName != null" >
+        #{coustomerName,jdbcType=VARCHAR},
+      </if>
+      <if test="callMe != null" >
+        #{callMe,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null" >
+        #{userId,jdbcType=CHAR},
+      </if>
+      <if test="tel != null" >
+        #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="ccTime != null" >
+        #{ccTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="ccTypeId != null" >
+        #{ccTypeId,jdbcType=BIGINT},
+      </if>
+      <if test="adminId != null" >
+        #{adminId,jdbcType=BIGINT},
+      </if>
+      <if test="assignTime != null" >
+        #{assignTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="csMemo != null" >
+        #{csMemo,jdbcType=VARCHAR},
+      </if>
+      <if test="customersMemo != null" >
+        #{customersMemo,jdbcType=VARCHAR},
+      </if>
+      <if test="rate != null" >
+        #{rate,jdbcType=TINYINT},
+      </if>
+      <if test="processStatus != null" >
+        #{processStatus,jdbcType=TINYINT},
+      </if>
+      <if test="createDateTime != null" >
+        #{createDateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ibaixiong.entity.CcmQuestion" >
+    update tbl_ccm_question
+    <set >
+      <if test="coustomerName != null" >
+        coustomer_name = #{coustomerName,jdbcType=VARCHAR},
+      </if>
+      <if test="callMe != null" >
+        call_me = #{callMe,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null" >
+        user_id = #{userId,jdbcType=CHAR},
+      </if>
+      <if test="tel != null" >
+        tel = #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="ccTime != null" >
+        cc_time = #{ccTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="ccTypeId != null" >
+        cc_type_id = #{ccTypeId,jdbcType=BIGINT},
+      </if>
+      <if test="adminId != null" >
+        admin_id = #{adminId,jdbcType=BIGINT},
+      </if>
+      <if test="assignTime != null" >
+        assign_time = #{assignTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="csMemo != null" >
+        cs_memo = #{csMemo,jdbcType=VARCHAR},
+      </if>
+      <if test="customersMemo != null" >
+        customers_memo = #{customersMemo,jdbcType=VARCHAR},
+      </if>
+      <if test="rate != null" >
+        rate = #{rate,jdbcType=TINYINT},
+      </if>
+      <if test="processStatus != null" >
+        process_status = #{processStatus,jdbcType=TINYINT},
+      </if>
+      <if test="createDateTime != null" >
+        create_date_time = #{createDateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=TINYINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ibaixiong.entity.CcmQuestion" >
+    update tbl_ccm_question
+    set coustomer_name = #{coustomerName,jdbcType=VARCHAR},
+      call_me = #{callMe,jdbcType=VARCHAR},
+      user_id = #{userId,jdbcType=CHAR},
+      tel = #{tel,jdbcType=VARCHAR},
+      cc_time = #{ccTime,jdbcType=TIMESTAMP},
+      cc_type_id = #{ccTypeId,jdbcType=BIGINT},
+      admin_id = #{adminId,jdbcType=BIGINT},
+      assign_time = #{assignTime,jdbcType=TIMESTAMP},
+      cs_memo = #{csMemo,jdbcType=VARCHAR},
+      customers_memo = #{customersMemo,jdbcType=VARCHAR},
+      rate = #{rate,jdbcType=TINYINT},
+      process_status = #{processStatus,jdbcType=TINYINT},
+      create_date_time = #{createDateTime,jdbcType=TIMESTAMP},
+      status = #{status,jdbcType=TINYINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

@@ -1,0 +1,170 @@
+.right-title a{
+    width: 90px;
+}
+a{
+    color:#333;
+}
+a.link:hover{
+    color:#ff6200;
+}
+.row{
+    margin:10px 0;
+    padding:10px 0;
+}
+.linkbox{
+    text-align: center;
+}
+.servicelink,.exchangelink{
+    width: 250px;
+    height:120px;
+    border:1px solid #333333;
+    background-position: 60px center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size:24px;
+    line-height:120px;
+    text-indent: 140px;
+    margin:10px 30px 20px;
+}
+.servicelink{
+    background-image: url("http://fe.ibaixiong.com/shop/image/service.png");
+}
+.exchangelink{
+    background-image: url("http://fe.ibaixiong.com/shop/image/exchange.png");
+}
+.select{
+    border-color:#ff6200;
+}
+.servicelink:hover,.exchangelink:hover{
+    border-color:#ff6200;
+}
+.light{
+    color:#999;
+    padding-left:10px;
+    font-size:12px;
+}
+.row p{
+    margin-left:25px;
+}
+.prodtable{
+    width: 893px;
+    margin-left:25px;
+}
+.prodtable tr td{
+    border:1px solid #dcdcdc;
+    vertical-align: top;
+    padding:10px 20px;
+    vertical-align: middle;
+}
+.prodtable tr td img{
+    float: left;
+    width: 100px;
+    height:100px;
+    margin-right:20px;
+}
+.tc{
+    text-align: center;
+}
+.prodtable tr td input[type=checkbox],input[type=checkbox].agreebtn{
+    vertical-align: top;
+    width: 12px;
+    height:12px;
+    margin-right:10px;
+    float: left;
+}
+.prodtable tr td input[type=radio],input[type=radio].agreebtn{
+    vertical-align: top;
+    width: 12px;
+    height:12px;
+    margin-right:20px;
+    float: left;
+}
+.inforlist{
+    width: 400px;
+    float: left;
+}
+.inforlist h4{
+    font-size:16px;
+    color:#666;
+    padding:8px 0;
+}
+.inforlist span{
+    display: inline-block;
+    padding-right:10px;
+    color:#999;
+    font-size:12px;
+}
+.problem{
+    width: 893px;
+    height:170px;
+    border:1px solid #dcdcdc;
+    margin-left:25px;
+}
+.address-mianouter{
+    width: 893px;
+    margin-left:25px;
+}
+.address-mian{
+    width: 893px;
+}
+.address{
+    width: 282px;
+}
+.hoverlink{
+    color:#ff6200;
+}
+.submit,
+.submit_form{
+    width: 140px;
+    height:40px;
+    background:#ff6200;
+    color:#fff;
+    margin:10px auto;
+    border:none;
+    display: block;
+}
+.submit_form{
+    line-height: 40px;
+    text-align: center;
+}
+.submit_form:hover{
+    color:#fff;
+}
+.none{
+    display: none;
+}
+.change{
+	margin-left: 7px;
+	height: 45px;
+}
+.minusbtn,.plusbtn{
+	border-radius:50% ;
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	margin-right:10px ;
+	background-image:url(http://fe.ibaixiong.com/shop/image/add_miuns_btn.png);
+	cursor:pointer;
+	float: left;
+}
+.minusbtn{
+	background-position:-36px 0;
+}
+.minusbtn:hover{
+	background-position:-36px -36px;
+}
+.plusbtn{
+	background-position:0px 0;
+}
+.plusbtn:hover{
+	background-position:0px -36px;
+}
+.number{
+	width: 40px;
+	height: 35px;
+	vertical-align: middle;
+	margin-right:10px ;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ibaixiong.mall.dao.SsssInvitationCodeProductDao" >
+  <resultMap id="BaseResultMap" type="com.ibaixiong.entity.SsssInvitationCodeProduct" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="invitation_code_id" property="invitationCodeId" jdbcType="BIGINT" />
+    <result column="product_id" property="productId" jdbcType="BIGINT" />
+    <result column="create_date_time" property="createDateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, invitation_code_id, product_id,create_date_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_ssss_invitation_code_product
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectByInvitationCodeId" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_ssss_invitation_code_product
+    where invitation_code_id = #{invitationCodeId,jdbcType=BIGINT}
+  </select>
+  <insert id="insert" parameterType="com.ibaixiong.entity.SsssInvitationCodeProduct" >
+    insert into tbl_ssss_invitation_code_product (id, invitation_code_id, product_id,create_date_time)
+    values (#{id,jdbcType=BIGINT}, #{invitationCodeId,jdbcType=BIGINT}, #{productId,jdbcType=BIGINT},#{createDateTime,jdbcType=TIMESTAMP})
+  </insert>
+ 
+</mapper>

@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+body,html{
+    width: 100%;
+    height:100%;
+    min-width:1400px;
+    min-height:765px;
+    max-width: 1920px;
+    margin:0 auto;
+    background: #fff;
+    line-height:2rem;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+a,input{outline:none;}
+a{
+    text-decoration: none;
+    color:#333333;
+}
+a:hover{
+    text-decoration: none;
+}
+.tc{
+    text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.goldword{
+    color:#dfb373;
+}
+.whiteword{
+    color:#fff;
+}
+.dark{
+    color:#666;
+}
+.redword{
+    color:#ff6200;
+}
+.largeSize{
+    font-size:38px;
+}
+.largerSize{
+    font-size:56px;
+}
+.normalSize{
+    font-size:16px;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin:auto;
+    top:0;
+    left:0;
+    right:0;
+    max-width: 1920px;
+    padding:0;
+}
+.page:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.content{
+    display:inline-block;
+    vertical-align:middle;
+    text-align: left;
+}
+.page{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.page2{
+    background:#1b1f24;
+}
+.page4{
+    background:url("../images/attract10.png") center bottom no-repeat;
+}
+.page5{
+    background:url("../images/attract9.png") center bottom no-repeat;
+}
+.image01,.image02{
+    width: 320px;
+    height:91px;
+    position: absolute;
+    left: 50%;
+    margin-left:-210px;
+    top:0;
+}
+.image01{
+    top:-500px;
+    margin-left:-160px;
+}
+.matter1,.matter2{
+    position:absolute;
+    width: 120px;
+    height:91px;
+    margin-right: -236px;
+    right: 50%;
+    top: 2px;
+}
+.matter1{
+    margin-right: -190px;
+    opacity: 0;
+}
+.article1 {
+    width: 1000px;
+    margin: 0 auto;
+    opacity:0;
+}
+.article2,.article3{
+    width: 1100px;
+    margin: 0 auto;
+}
+.number{
+    width: 275px;
+    float: left;
+    text-align: center;
+    height:166px;
+    line-height:2.8em;
+}
+.module{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding:0 20px;
+    height: 434px;
+    padding-top:40px;
+    background:url("../images/attract3.png") right center no-repeat;
+}
+.module p{
+    margin-top:20px;
+}
+.bottom3{
+    line-height:4em;
+}
+.logo4{
+    position: absolute;
+    top:100px;
+    left:50%;margin-left:-563px;
+    width: 179px;
+    height:27px;
+}
+.article5{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+}
+.pageBg{
+    width: 50%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 99;
+    opacity: 0.3;
+    background:#000;
+}
+.bullet{
+    width: 20px;
+    position: absolute;
+    right:20px;
+    top:50%;
+    z-index: 101;
+    margin-top:-50px;
+}
+.bullet li {
+    width: 6px;
+    height: 6px;
+    display: block;
+    background: #dcdcdc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 15px auto;
+}
+.bullet li.on{
+    background:none;
+    width: 10px;
+    height: 10px;
+    border:2px solid #00a0e9;
+    opacity: 0.3;
+}

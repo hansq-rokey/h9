@@ -1,0 +1,31 @@
+.back-container{width:918px;}
+.back-list{width: 100%;margin:15px 0 0 0;padding: 0;}
+.back-list li{width: 100%;margin-bottom: 15px;position: relative;}
+.status{z-index: 9;position: absolute;top: 0; left:40px;}
+.back-list li .status li{position:relative;width: 142px;margin-right:30px;height:47px;margin-top: 0;margin-bottom:0;float:left;}
+.back-list li .status li.serviceli{width: 131px;margin-right:14px;}
+.back-list li .status li.last{margin-right: 0;}
+.status span{display: block;width: 150px; text-align:center;color: #999;line-height: 40px;padding-top: 10px;}
+.status span.servicelispan{width: 110px;}
+.status li .status-lion{display:none;position:absolute;left:0px;top:47px;width: 150px;height: 4px;_font-size:0;background: url(http://fe.ibaixiong.com/shop/image/status-lion.png) no-repeat 0 0;}
+.status li .status-lion.servicelion{width: 110px;}
+.status em{font-style: normal;display: block;margin-top:10px;text-align: center;font-size: 12px;color: #999;}
+.sline{width: 835px;height: 3px;_font-size:0px;background: #dedede;position: absolute;top:48px;left: 40px;z-index: 7;}
+.back-list li .status li.on{height: 74px;}
+.back-list li .status li.on .status-lion{display:block;}
+.status li.on span{color: #ff7d42;}
+.status-box{width: 918px;*width:876px;border: 1px solid #dcdcdc;height: 210px;padding: 94px 0 0 40px}
+.status-box img{display: block;float: left;}
+.status-box  p{float: left;padding-left: 20px;color: #999;margin: 3px;font-size:13px;width: 500px;}
+.status-box  p.sp-name{color: #b8b8b8;}
+.logistics-info{width: 100px;float:right;position: relative;text-align: center;margin-right: 20px;}
+.logistics-info span{color: #ff7d42;}
+.logistics-info span.payed{width:70px;height:24px;background:#e3e3e3;color:#858585;display: inline-block;float:right;margin-right:15px;line-height:24px;}
+.logistics-info span.paynow{width:70px;height:24px;background:#ff6200;color:#fff;display: inline-block;float:right;margin-right:15px;line-height:24px;}
+.logistics{z-index:80;width: 258px;*width:214px;position:absolute;top:25px;left:-99px;font-size:12px;border: 1px solid #dcdcdc;background: #fff;padding: 20px;}
+.logistics h5{font-weight:normal;margin:0;font-size:12px;border-bottom: 1px solid #dcdcdc;line-height: 25px; height:30px;text-align: left;}
+.arrow{background: url(http://fe.ibaixiong.com/shop/image/arrow.png) center center no-repeat;width: 10px;height: 7px;display: block;position: absolute;top: -6px;left: 143px;}
+.logistics-list li{*width:180px;*overflow:hidden;list-style:none;margin: 20px 0 0 0;color:#999;padding-right: 20px;padding-left:14px;background: url(http://fe.ibaixiong.com/shop/image/logistics-listlibg.png) no-repeat 0 6px;}
+.logistics-list p{width: 100%;text-align: left;float: none;padding-left:0;}
+.logistics-list li.now{background: url(http://fe.ibaixiong.com/shop/image/logistics-listlibgcurrent.png) no-repeat 0 6px;}
+.logistics-list li.now p{color: #ff6200;}

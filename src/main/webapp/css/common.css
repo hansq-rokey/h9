@@ -1,0 +1,506 @@
+*{font-family: '\5FAE\8F6F\96C5\9ED1';}
+
+body{font-family: '\5FAE\8F6F\96C5\9ED1';outline: none;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { *zoom:1}
+ul {margin:0;padding: 0;}
+li{list-style: none;}
+a:hover{text-decoration: none;}
+button,a,input{outline:none;}
+input[type=button]:hover{opacity:0.9;}
+input[type=button]:focus,button:focus{border:none;}
+.fr{float: right;}
+.fl{float: left;}
+.red{color:#ff6200;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;margin: 0;padding: 0;font-size:14px; }
+.container{width: 100%;padding:0;/*height: 100%;*//*padding-bottom:100px;*/background: url(http://fe.ibaixiong.com/shop/image/bg.png) 0 0 repeat-x #fff;}
+.content{width: 1200px;margin: 0 auto;position: relative;}
+.head{width: 100%;height: 70px;z-index:995;}
+.logo{float: left;width:80px;height: 45px;margin: 14px 0 0 0;}
+.logo img{display: block;height: 27px;margin-top:9px;}
+.menus{float: right;}
+.menus li,.login li{float: left;height: 70px;line-height: 70px;margin-left:40px;display:line-block;position:relative;}
+.menus li a,.login li a{color:#a2a4a6;font-size: 14px;}
+.menus li a:hover,.login li a:hover{color: #fff;text-decoration: none;}
+.login{float: right;}
+.content-left{float: left;width: 218px;border: 1px solid #dcdcdc;padding: 20px 0;position: relative;background: #fff;}
+.content-left .line{background: #ff6200;height: 45px;overflow: hidden;position: absolute;left: -1px;top: 60px;width: 3px;}
+.content-right{float: right;width: 960px;*width:918px;min-height: 700px;border: 1px solid #dcdcdc;padding:20px;background: #fff;position: relative;padding-bottom: 70px;margin-bottom: 28px;}
+.content-left h3{font-size: 14px;width:186px;margin:0 auto;font-weight:normal;padding-left:20px;color: #333333;line-height: 40px;border-bottom: 1px solid #dcdcdc;}
+.content-left ul{margin: 0;padding: 0;}
+.content-left ul li{list-style: none;padding: 0 32px;}
+.content-left ul li a{color: #808080;font-size: 14px;line-height: 45px;}
+.content-left ul li a:hover,.content-left ul li.on a{color: #ff7d42;text-decoration: none;}
+.content-left ul li.on {/*border-left:3px solid #ff7d42;*/}
+.right-title{height: 40px;line-height: 30px;border-bottom: 1px solid #dcdcdc;}
+.right-title a{display: block;height:40px;float: left;width: 75px;text-align: center;color:#333;margin-left: 25px; }
+.right-title a.on{color:#ff7d42;border-bottom: 3px solid #ff7d42; }
+.tac{
+	text-align: center;
+}
+.ml10{
+	margin-left: 10px;
+}
+.new-orange-btn{
+	display: inline-block;
+	padding: 0 26px;
+	background: #ff6200;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+}
+.new-orange-btn:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.new-orange-btn:visited{
+	color: #fff;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.mr10{
+	margin-right: 10px;
+}
+
+.relative{
+	position: relative;
+}
+
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* 页码 */
+.list-page{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0 10px;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.list-page a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.list-page a.prev{
+	width: 11px;
+	background: url(http://fe.ibaixiong.com/shop/image/prev.png) no-repeat 0 0;
+	margin-right: 20px;
+}
+
+.list-page a.next{
+	width: 11px;
+	background: url(http://fe.ibaixiong.com/shop/image/next.png) no-repeat 0 0;
+	margin-left: 20px;
+}
+
+.list-page .list-page-num{
+	display: inline-block;
+	*display: inline;
+}
+
+.list-page .list-page-num a{
+	width: 30px;
+	text-align: center;
+	color: #607080;
+	font-size: 15px;
+	font-family: '微软雅黑';
+}
+
+.list-page .list-page-num a:hover{
+	color: #ff6200;
+	text-decoration: underline;
+}
+
+.list-page .list-page-num a.current{
+	background: url(http://fe.ibaixiong.com/shop/image/list-page-numabg.png) no-repeat 0 0;
+	color: #fff;
+}
+
+.list-page .list-page-num a.current:hover{
+	background: url(http://fe.ibaixiong.com/shop/image/list-page-numabg.png) no-repeat 0 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* 空白页 */
+.none-container{
+	text-align: center;
+	padding-top: 176px;
+}
+
+.none-container .text{
+	height: 100px;
+	line-height: 100px;
+	color: #858585;
+	font-size: 18px;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+
+.none-container .text a{
+	color: #ff6200;
+	margin-left: 10px;
+}
+
+.none-container .text a:hover{
+	color: #ff6200;
+	text-decoration: underline;
+}
+
+.none-container-pic{
+	width: 100%;
+}
+
+.none-container-pic i{
+	width: 101px;
+	height: 130px;
+	display: inline-block;
+	background: url(http://fe.ibaixiong.com/shop/image/none-container-pic.png) no-repeat 0 0;
+}
+.size-num{
+
+}
+
+.size-num .minus_btn,.size-num .add_btn{
+	background: url('http://fe.ibaixiong.com/shop/image/add_miuns_btn.png') no-repeat;
+	height: 37px;
+	width: 36px;
+}
+.size-num .minus_btn{
+	background-position: -36px 0;
+}
+.size-num .add_btn{
+	background-position: 0 0;
+}
+.size-num .minus_btn:hover{
+	background-position: -36px -36px;
+}
+.size-num .add_btn:hover{
+	background-position: 0 -36px;
+}
+/*查看物流*/
+.logistics-list{
+	height: 234px;
+	overflow-y: auto;
+	width: 216px;
+}
+.closeicon{
+	width: 14px;
+	height:14px;
+	display: inline-block;
+	background:url("http://fe.ibaixiong.com/shop/images/icon.png") no-repeat -288px -12px;
+	float: right;
+	margin-right:12px;
+	margin-top:11px;
+	cursor: pointer;
+}
+.footor{
+	text-align: center;
+	font-size:12px;
+	height:130px;
+	width: 100%;
+	border-top:1px solid #f2f2f2;
+	padding-top:40px;
+	color:#999;
+}
+.footor a{
+	display: inline-block;
+	padding:5px;
+	color:#999;
+}
+.footor a:hover{
+	color:#ff6200;
+}
+#userInfo{
+	max-width:80px;
+	height:70px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	line-height:70px;
+	white-space: nowrap;
+}
+/*弹窗*/
+.pop{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 9999;
+    display: none;
+}
+.pop:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.popbg{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 989;
+    background: #000;
+    opacity: 0.5;
+}
+.poptitle{
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #dcdcdc;
+    text-align: left;
+    text-indent: 5px;
+    margin-bottom:30px;
+}
+.layel{
+    width: 500px;
+    min-height:200px;
+    max-height:80%;
+    background: #fff;
+    padding:10px 30px;
+    position: relative;
+    z-index: 999;
+    overflow-y:auto;
+	display:inline-block;
+    vertical-align:middle;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.tc{
+	text-align:center;
+}
+.kefu{color:#fff;height:30px;width:150px;backgroud:url('http://fe.ibaixiong.com/shop/images/qqonline.png');background-color:#ff6200;background-position:5px 5px;margin-top:16px;padding-left:26px;}
+.qqonline:hover{
+	opacity:0.9;
+}
+#userInfo{
+	position:relative;
+}
+.person{
+	display:none;
+    position:absolute;
+    width:140px;
+    top:64px;
+    right:0;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    text-align:left;
+    padding:3px 10px;
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+	box-shadow:0 2px 3px rgba(0, 0, 0, 0.1);
+	z-index:9999999;
+}
+#infoLi:hover .person{
+    display: block;
+}
+#infoLi:hover .sanjiao{
+    display: block;
+}
+.person img{
+	width:25px;
+	height:25px;
+	margin-right:8px;
+	border-radius: 50%;
+}
+.login li .person a{
+	margin:0px;
+	color:#333;
+	padding:0 0 0 3px;
+	line-height:28px;
+	cursor: pointer;
+}
+.login li .person a:hover{
+	color:#ff6200;
+}
+.login li .person p{
+	margin:0px;
+	line-height:28px;
+	border-bottom:1px solid #dcdcdc;
+}
+.sanjiao{
+	display:none;
+	position:absolute;
+    bottom:-8px;
+    right:36px;
+    margin-left:-12px;
+    width: 13px;
+    height:13px;
+    transform:rotate(-135deg);
+    -ms-transform:rotate(-135deg); 	/* IE 9 */
+    -moz-transform:rotate(-135deg); 	/* Firefox */
+    -webkit-transform:rotate(-135deg); /* Safari å’Œ Chrome */
+    -o-transform:rotate(-135deg);
+    background-color: #fff;
+    z-index: 99;
+    top:58px;
+    box-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+/**/
+.order_total{
+	border:1px solid #dcdcdc;
+	margin: 30px 0;
+	/* width:1030px; */
+}
+.order_mian p{
+	text-align:center !important;
+}
+.order_color {
+	margin-right: 0;
+	margin-left:0;
+}
+.order_color .col-lg-3{
+	background-color: #F0F4F8;
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	padding: 15px;
+
+}
+.order_mian{
+    margin-left: 0;
+	margin-right:0; 
+}
+.order_mian .col-lg-3{
+	text-align: center;
+	padding: 20px;
+}
+.order_hr{
+	border-top: 1px solid #DCDCDC;
+}
+.x_money{
+	color: #ff7d42 !important;
+}
+.x_margin{
+	margin-top: 20px;
+}
+.r_box{
+	height: 30px;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+.r_dg{
+	vertical-align: middle;
+    margin-top:1px !important;
+}
+.order_xx{
+	width: 1030px;
+    margin: 6px 0;
+}
+.tc{
+	text-align: center;
+}
+.alertpop{
+	display: block;
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:0;
+	left:0;
+	display: none;	
+	z-index: 9999;
+}
+.alertLayel{
+	display: block;
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index: 9999;
+}
+.popbg{
+	    width: 100%;height:100%;position: absolute;top:0;left:0;z-index: 989;background: #000;opacity: 0.5;
+}
+.alertLayel{
+   width:400px;
+   height:200px;
+   padding-top:10px;
+   background:#fff;
+   position:absolute;
+   margin:auto;top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   z-index:9999
+}
+.closeicon{
+  margin-right:12px;
+  margin-top:0;
+}
+.alertContent{
+  line-height:30px;
+  font-size:14px;
+  text-align:center;
+  height:100px;
+}
+.alertBtn{
+  height:30px;
+  border:none;
+  width:80px;
+  background:#ff6200;
+  color:#fff;
+}
+/*btn*/
+.pay_b input[type="button"]{
+    height: 30px;
+    border: none;
+    width: 80px;
+    background: #ff6200;
+    color: #fff;
+  }
+  /*物料信息*/
+.order-Details{
+	width:100%;
+}
+.order-boxborder1{
+	border: 1px solid #dcdcdc;
+}
+.order-boxborder2{
+	border-top: 1px solid #dcdcdc;
+}
+.order-tag{
+	width: 100%;
+    display: block;
+    background:#F2F2F2;
+    overflow: hidden;
+}
+.order-tag li{
+	width:calc(100%/4 - 4px);
+    border-left: 1px solid #dcdcdc;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: -1;
+}
+.order-mian{
+	width:100%;
+	border-top: 1px solid #dcdcdc;
+}
+.order-mian span{
+	width:calc(100%/4 - 4px);
+	border-left: 1px solid #dcdcdc;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: -1px;
+}  

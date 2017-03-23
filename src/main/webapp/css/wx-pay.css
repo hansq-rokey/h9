@@ -1,0 +1,43 @@
+body{background:#f4f7fa; }
+.container{background: url(http://fe.ibaixiong.com/shop/image/bg.png) 0 0 repeat-x #f4f7fa;}
+.wrap{width: 1200px;*width: 1160px;background: #fff;border-radius: 5px;padding: 40px;overflow:hidden;min-height:700px;}
+.pay-info{width: 488px;height: 438px;margin:20px 0 0 20px;padding-left:190px;background-image:url("http://fe.ibaixiong.com/shop/image/wx-infor-bg.png");background-position:10px bottom;background-repeat: no-repeat;margin-top:40px;}
+.pay-infor-box{background:#fff;box-shadow: 0 15px 40px #c1bfbf;margin-right:20px;margin-top:-80px;width: 288px;display: none;}
+.pay-info h2{margin:26px 0 20px;text-align: center;}
+.pay-info .ordernum{padding-top: 8px;}
+.pay-info h2 img{display: inline-block; margin-right: 10px;}
+.pay-info p{margin:0;line-height: 20px;color: #666;clear:both;font-size: 12px;padding:0 20px;}
+.pay-info .paytop-line{margin:0 20px;padding: 7px 0 0 0;border-top: 1px dashed #dcdcdc;}
+.line{clear:both;width: 100%;height:1px;border-bottom: 1px dashed #dcdcdc;margin: 5px 0;}
+.pay-info p span.money,.money{color: #ff7d42;margin-bottom: 10px;}
+.pay-info p em{font-style: normal;}
+.pay-info .adress,.pay-info .tele{font-size: 12px;color: #333;margin-top: 10px;padding-left: 40px;}
+.pay-info .adress{background: url(http://fe.ibaixiong.com/shop/image/address.png) 20px 5px no-repeat;}
+.pay-info .tele{background: url(http://fe.ibaixiong.com/shop/image/tele.png) 20px 5px no-repeat;}
+.m20{margin: 20px 0!important;}
+.pay-info .tcenter{margin-top:15px;line-height:72px;padding: 0!important;text-align: center;height: 72px;background: url(http://fe.ibaixiong.com/shop/image/tcenter.png) no-repeat 0 0;}
+.chosepay{clear:both;font-size: 18px;font-weight: bold;color: #333;line-height: 100px;}
+.pay-btn{float: left;width: 215px;margin-right: 50px;}
+.pay-btn input,.pay-btn img{display: inline-block;}
+.pay-btn input{vertical-align: top;}
+.pay-btn img{margin-left: 10px;}
+.payNow{display: block;width: 200px;height: 40px;line-height: 40px;text-align: center;margin:30px auto;}
+.payNow .new-orange-btn{padding: 0 40px;height: 40px;line-height: 40px;}
+.erweima-box{width: 300px;height:365px;background:url("http://fe.ibaixiong.com/shop/image/wx-pay-bg.png") center top no-repeat;position:relative;margin-left:219px;margin-top:100px;}
+.erweima{width: 280px;height:280px;margin:15px 10px;}
+.logo-bg{width: 50px;position: absolute;left: 50%;margin-left:-25px;top:-20px;}
+.strong{font-size:24px;margin-right:10px;}
+.fr{float: right;}
+.pay-head{height:80px;border-bottom:1px solid #dcdcdc;line-height:80px;}
+.wx-pay-success{
+    width: 93px;
+    height:122px;
+}
+.alipay-success{
+    width: 122px;
+    height:121px;
+}
+.wx-logo{margin-top:-8px;}
+#qrcode img{
+	margin-top:10px;
+}

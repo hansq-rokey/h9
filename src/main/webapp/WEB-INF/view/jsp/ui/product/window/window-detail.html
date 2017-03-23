@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="http://fe.ibaixiong.com/common/plug/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fe.ibaixiong.com/shop/css/window-detail.css" rel="stylesheet" type="text/css">
+    <script src="http://fe.ibaixiong.com/common/plug/jQuery/jquery-1.8.3.min.js" type="text/javascript" ></script>
+    <script src="http://fe.ibaixiong.com/common/plug/jQuery/jquery.easing.min.js" type="text/javascript" ></script>
+    <script src="http://fe.ibaixiong.com/shop/js/window-detail.js" type="text/javascript"></script>
+    <link rel="icon" href="http://fe.ibaixiong.com/shop/image/xLogin.ico"	mce_href="http://fe.ibaixiong.com/shop/image/xLogin.ico"
+	type="image/x-icon">
+    <title>飘窗款详情页</title>
+    <script>
+	$(document).ready(function() {
+	$.ajax({
+		   url: "/user/info.htm",
+		   type: "get",
+		   dataType:"json",
+		   cache:false,
+		   success: function(obj){
+			   console.log(obj);
+			 	if ( obj.result.loginstatus == true ) {
+					//获取登陆用户成功之后给值
+					$("#userInfo").show();
+					$("#loginInfo").hide();
+					var nick=obj.result.name;
+					if(nick==null)
+						nick ="白熊";
+					$("#userName").text(nick);
+				}
+		   }
+		});
+	});
+	</script>
+</head>
+<body>
+<header>
+    <div class="navbox">
+        <img src="http://fe.ibaixiong.com/shop/images/shoplogo.png" class="indexlogo">
+        <ul class="headnav">
+            <li><a href="http://www.ibaixiong.com">首页</a> </li>
+            <li class="prodhover"><a href="#">产品</a> 
+            	<div  class="prodbox">
+                    <div class="prodlist">
+                        <div class="prodliatbox">
+                            <a class="dark" href="bath-detail.html">
+                            <img src="http://fe.ibaixiong.com/shop/images/logo-bath.png">
+                            <p>浴室款</p>
+                            </a>
+                        </div>
+                        <div class="prodliatbox">
+                            <a class="dark" href="proddetail.html" target="_blank">
+                            <img src="http://fe.ibaixiong.com/shop/images/logo-room.png">
+                            <p>卧室款</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="http://bbs.ibaixiong.com">社区</a> </li>
+            <li id="loginInfo">
+            	<a href="http://login.ibaixiong.com/login?service=http://www.ibaixiong.com/sso" class="loginlink">登录</a>
+            	<span>|</span>
+            	<a href="http://user.ibaixiong.com/register.html" class="registerlink">注册</a>
+            </li>
+			<li id="userInfo" style="display: none;">
+				<a href="/u/order/list.html" id="userName" style="width: 80px;overflow: hidden;padding: 0;height: 100px;float: left;    text-overflow:ellipsis;white-space:nowrap;"></a>
+				<a href="/logout.html">退出</a>
+			</li>
+        </ul>
+    </div>
+</header>
+<a name="top"></a>
+<div class="content-nav-box">
+    <div class="content-box">
+        <nav class="content-nav">
+            <span class="prodtitle">白熊电暖片<i class="light">MX5</i>配置参数</span>
+            <ul>
+                <li class="content-nav-li"><a href="#top" class="on">概述</a> </li>
+                <li class="content-nav-li"><a href="#top">参数</a> </li>
+                <li class="content-nav-li"><a href="#top">图库</a> </li>
+                <li class="content-nav-li"><a href="#top">评测</a> </li>
+                <li class="content-nav-li"><a href="#top">讨论区</a> </li>
+                <li><a href="/product/1.html"><input type="button" class="buynow buynowtop" value="立即购买"></a> </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="content">
+    <div class="prodinforbox select">
+        <div class="section section01">
+            <p class="btnbox"><span class="price">4499元</span><a href="/product/1.html"><input type="button" class="buynow" value="立即购买"></a> </p>
+        </div>
+        <div class="section section02">
+            <img src="http://fe.ibaixiong.com/shop/images/window2-1.png" class="secimg21">
+        </div>
+        <div class="section section03">
+        </div>
+        <div class="section section04">
+            <img src="http://fe.ibaixiong.com/shop/images/window4-1.png" class="secimg41">
+            <img src="http://fe.ibaixiong.com/shop/images/window4-2.png" class="secimg42">
+            <img src="http://fe.ibaixiong.com/shop/images/window4-3.png" class="secimg43">
+            <div class="secimg44"></div>
+            <img src="http://fe.ibaixiong.com/shop/images/window4-5.png" class="secimg45">
+            <img src="http://fe.ibaixiong.com/shop/images/window4-6.png" class="secimg46">
+        </div>
+        <div class="section section05">
+            <img src="http://fe.ibaixiong.com/shop/images/window5-1.png" class="secimg51">
+        </div>
+        <div class="section section06">
+            <img src="http://fe.ibaixiong.com/shop/images/window6-1.png" class="secimg61">
+        </div>
+        <div class="section section07">
+            <img src="http://fe.ibaixiong.com/shop/images/window7-1.png" class="secimg71">
+            <img src="http://fe.ibaixiong.com/shop/images/window7-2.png" class="secimg72">
+        </div>
+    </div>
+
+    <div class="prodinforbox">
+        <div class="content-box">
+            <div class="row">
+                <p class="attr-title">外观尺寸</p>
+            </div>
+            <div class="row">
+                <img src="http://fe.ibaixiong.com/shop/images/p1.jpg">
+            </div>
+            <div class="row">
+                <p class="attr-title">基本参数</p>
+            </div>
+            <div class="row">
+                <img src="http://fe.ibaixiong.com/shop/images/p2.jpg">
+            </div>
+            <div class="row">
+                <p class="attr-title">工作原理</p>
+            </div>
+            <div class="row">
+                <img src="http://fe.ibaixiong.com/shop/images/p3.jpg">
+            </div>
+            <div class="row">
+                <p class="attr-title">包装清单</p>
+            </div>
+            <div class="row">
+                <img src="http://fe.ibaixiong.com/shop/images/p4.jpg">
+            </div>
+            <div class="row">
+                <p class="attr-title">手机智能遥控功能</p>
+            </div>
+            <div class="row">
+                <img src="http://fe.ibaixiong.com/shop/images/p5.jpg">
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer class="bx-footer">
+    <div class="footer-wrap">
+        <div class="row">
+            <div class="col-lg-2">
+                <ul>
+                    <li><p>关于白熊</p></li>
+                    <li><a href="/about.html">了解我们</a> </li>
+                    <li><a href="/join.html">加入我们</a> </li>
+                    <li><a href="/contact.html">联系我们</a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li><p>白熊渠道</p></li>
+                    <li><a target="_black" href="https://shop130325253.taobao.com/">白熊淘宝店</a> </li>
+                    <!-- li><a href="#">白熊商城</a> </li> -->
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li><p>关注我们</p></li>
+                    <li class="wx"><a href="#">官方微信</a><img src="http://fe.ibaixiong.com/shop/images/erweima.png" class="erweima"> </li>
+                    <li><a target="_black" href="http://weibo.com/u/5721304254">新浪微博</a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li><p>共建家园</p></li>
+                    <li><a href="javascript:;" class="feedback">问题反馈</a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 tc">
+                <div><i class="mobileicon"></i><span class="mobilenum">400-157-0088</span></div>
+                <div style="text-indent: 34px;">周一到周五（9:00-18:00）</div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="footer-infor">© 2015 ibaixiong.com All rights reserved.    杭州白熊科技有限责任公司    浙ICP备15024007号-1</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

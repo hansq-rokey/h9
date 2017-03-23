@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ibaixiong.mall.dao.MallPayCmbChinaDao" >
+  <resultMap id="BaseResultMap" type="com.ibaixiong.entity.MallPayCmbChina" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="order_number" property="orderNumber" jdbcType="CHAR" />
+    <result column="branch_id" property="branchId" jdbcType="VARCHAR" />
+    <result column="cono" property="cono" jdbcType="VARCHAR" />
+    <result column="billno" property="billno" jdbcType="VARCHAR" />
+    <result column="date_8" property="date8" jdbcType="VARCHAR" />
+    <result column="bank_pay_number" property="bankPayNumber" jdbcType="VARCHAR" />
+    <result column="msg" property="msg" jdbcType="VARCHAR" />
+    <result column="para" property="para" jdbcType="VARCHAR" />
+    <result column="signature" property="signature" jdbcType="VARCHAR" />
+    <result column="create_date_time" property="createDateTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="amount" property="amount" jdbcType="REAL" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, order_number, branch_id, cono, billno, date_8, bank_pay_number, msg, para, signature, 
+    create_date_time, update_time,amount
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_mall_pay_cmbchina
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from tbl_mall_pay_cmbchina
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.ibaixiong.entity.MallPayCmbChina" >
+    insert into tbl_mall_pay_cmbchina (id, order_number, branch_id, 
+      cono, billno, date_8, 
+      bank_pay_number, msg, para, 
+      signature, create_date_time, update_time,amount
+      )
+    values (#{id,jdbcType=BIGINT}, #{orderNumber,jdbcType=CHAR}, #{branchId,jdbcType=VARCHAR}, 
+      #{cono,jdbcType=VARCHAR}, #{billno,jdbcType=VARCHAR}, #{date8,jdbcType=VARCHAR}, 
+      #{bankPayNumber,jdbcType=VARCHAR}, #{msg,jdbcType=VARCHAR}, #{para,jdbcType=VARCHAR}, 
+      #{signature,jdbcType=VARCHAR}, #{createDateTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP},#{amount,jdbcType=REAL}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ibaixiong.entity.MallPayCmbChina" >
+    insert into tbl_mall_pay_cmbchina
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="orderNumber != null" >
+        order_number,
+      </if>
+      <if test="branchId != null" >
+        branch_id,
+      </if>
+      <if test="cono != null" >
+        cono,
+      </if>
+      <if test="billno != null" >
+        billno,
+      </if>
+      <if test="date8 != null" >
+        date_8,
+      </if>
+      <if test="bankPayNumber != null" >
+        bank_pay_number,
+      </if>
+      <if test="msg != null" >
+        msg,
+      </if>
+      <if test="para != null" >
+        para,
+      </if>
+      <if test="signature != null" >
+        signature,
+      </if>
+      <if test="createDateTime != null" >
+        create_date_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+      <if test="amount != null" >
+        amount,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="orderNumber != null" >
+        #{orderNumber,jdbcType=CHAR},
+      </if>
+      <if test="branchId != null" >
+        #{branchId,jdbcType=VARCHAR},
+      </if>
+      <if test="cono != null" >
+        #{cono,jdbcType=VARCHAR},
+      </if>
+      <if test="billno != null" >
+        #{billno,jdbcType=VARCHAR},
+      </if>
+      <if test="date8 != null" >
+        #{date8,jdbcType=VARCHAR},
+      </if>
+      <if test="bankPayNumber != null" >
+        #{bankPayNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="msg != null" >
+        #{msg,jdbcType=VARCHAR},
+      </if>
+      <if test="para != null" >
+        #{para,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null" >
+        #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="createDateTime != null" >
+        #{createDateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="amount != null" >
+        #{amount,jdbcType=REAL},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ibaixiong.entity.MallPayCmbChina" >
+    update tbl_mall_pay_cmbchina
+    <set >
+      <if test="orderNumber != null" >
+        order_number = #{orderNumber,jdbcType=CHAR},
+      </if>
+      <if test="branchId != null" >
+        branch_id = #{branchId,jdbcType=VARCHAR},
+      </if>
+      <if test="cono != null" >
+        cono = #{cono,jdbcType=VARCHAR},
+      </if>
+      <if test="billno != null" >
+        billno = #{billno,jdbcType=VARCHAR},
+      </if>
+      <if test="date8 != null" >
+        date_8 = #{date8,jdbcType=VARCHAR},
+      </if>
+      <if test="bankPayNumber != null" >
+        bank_pay_number = #{bankPayNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="msg != null" >
+        msg = #{msg,jdbcType=VARCHAR},
+      </if>
+      <if test="para != null" >
+        para = #{para,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null" >
+        signature = #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="createDateTime != null" >
+        create_date_time = #{createDateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="amount != null" >
+        amount = #{amount,jdbcType=REAL},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ibaixiong.entity.MallPayCmbChina" >
+    update tbl_mall_pay_cmbchina
+    set order_number = #{orderNumber,jdbcType=CHAR},
+      branch_id = #{branchId,jdbcType=VARCHAR},
+      cono = #{cono,jdbcType=VARCHAR},
+      billno = #{billno,jdbcType=VARCHAR},
+      date_8 = #{date8,jdbcType=VARCHAR},
+      bank_pay_number = #{bankPayNumber,jdbcType=VARCHAR},
+      msg = #{msg,jdbcType=VARCHAR},
+      para = #{para,jdbcType=VARCHAR},
+      signature = #{signature,jdbcType=VARCHAR},
+      create_date_time = #{createDateTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      amount = #{amount,jdbcType=REAL}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

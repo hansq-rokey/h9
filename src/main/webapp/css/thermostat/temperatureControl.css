@@ -1,0 +1,87 @@
+.slider1{width: 100%; margin: 0 auto;background-color: #ECECEC;}
+.slider1 .slider-center{width: 1200px;margin: auto;}
+.slider1 .slider-center .desc1-txt{position: absolute;margin-top: 250px;}
+.slider1 .slider-center .desc1-txt-w{width: 435px;}
+.slider1 .slider-center .desc1-txt .desc1-title{font-size: 60px;color: #333;font-weight: 400;vertical-align: top;margin-bottom:20px;}
+.slider1 .slider-center .desc1-txt .desc1-title .little_tag{color: #0084ff;font-style: normal;font-size: 25px;vertical-align: top;font-weight: 100;line-height: 60px;}
+.slider1 .slider-center .desc1-txt .desc1-tag {font-size: 25px;font-weight: 400;color:#333;margin-bottom:20px; }
+.slider1 .slider-center .desc1-txt .desc1-feature{font-size: 0;display:block;margin-bottom:30px; }
+.slider1 .slider-center .desc1-txt .desc1-feature .desc1-content{display: inline-block;width:19%;text-align: left;color: #666;line-height: 30px;}
+.slider1 .slider-center .desc1-txt .desc1-feature .desc1-content:before{content:'|';position: absolute;color: #666666;margin-left: -15px;}
+.slider1 .slider-center .desc1-txt .desc1-feature .desc1-content:nth-child(1)::before{content:'';}
+.slider1 .slider-center .desc1-txt .desc1-price{color: #0084ff;font-size: 60px;}
+.slider1 .slider-center .desc1-txt .desc1-price .price_unit{font-size: 30px;font-style: normal;margin-left: 10px;}
+.slider1 .slider-center .slider-circle .bg-temp1{left: 700px;}
+.slider1 .slider-center .slider-circle .bg-temp2{top: 420px;left: 400px;}
+.slider2{width: 100%; margin: 0 auto;}
+.slider2 .sliderL , .slider2 .sliderR{width: 50%;height:100%;float: left;position: relative;}
+.slider2 .sliderL{background-image: url(../../images/thermostat/2.1_02.png);background-position:center top; background-size: cover;background-repeat: no-repeat;}
+.slider2 .sliderR{background-image: url(../../images/thermostat/2.2_03.png);background-position:center top; background-size: cover;background-repeat: no-repeat;}
+.slider2 .sliderR1{background-image: url(../../images/thermostat/2.3_03.png);background-position:center top; background-size: cover;background-repeat: no-repeat;}
+.slider2 .sliderR2{background-image: url(../../images/thermostat/2_03.png);background-position:center top; background-size: cover;background-repeat: no-repeat;}
+.slider2 .sliderL img, .slider2 .sliderR img{width: 100%;}
+.slider2 .sliderR .desc2-txt{position: absolute;width: 560px;left:60px;top:300px;}
+.slider2 .sliderR .desc2-txt .desc1-title{margin: 0;}
+.slider2 .sliderR .desc2-txt .desc1-tag{line-height: 30px;margin-top:20px;}
+.slider3{width: 100%;height: 850px; margin: 0 auto; background: url(../../images/thermostat/3.1.jpg);background-repeat: no-repeat;background-size: cover; background-position: center top;}
+.slider3 .slider-center{width: 1200px;margin: auto;position: relative;}
+.slider3 .slider-center .desc3-txt{position: relative;}
+.slider3 .slider-center .desc3-txt .desc3-title{text-align:center;padding:80px 0 30px 0;}
+.slider3 .slider-center .desc3-txt .desc3-tag{text-align: center;display:block;line-height: 30px;}
+.slider3 .slider-center .slider-circle{position: absolute;height:500px;overflow: hidden;left:250px;margin-top:30px;}
+.slider3 .slider-center .slider-circle img{width:90%;}
+.slider3-an{height: 300px;width: 130px;position: absolute;overflow: hidden;background-image: url(../../images/thermostat/3.1_03.png);background-position-x:-300px ;left:550px;margin-top: 100px;}
+.slider4{width: 100%;height: 798px;margin: 0 auto;background-color: #EDEDED;background-repeat: no-repeat;background-image: url(../../images/thermostat/4.1_03.jpg);}
+.slider4 .slider-center{width: 1200px;margin: 0 auto;position: relative;top:50px;}
+.slider4 .slider-center .desc4-txt{position: absolute;width: 400px;text-align: center;top:80px}
+.slider4 .slider-center .desc4-txt .desc4-title{margin-bottom: 20px;}
+.slider4 .slider-center .desc4-txt .desc4-tag{line-height: 30px;}
+.slider4 .slider-center .desc4-txt .slider-circle{margin-top: 20px;}
+.slider4 .slider-center .slider4-data{position: absolute;right: 100px;width:460px;top:160px;}
+.slider4 .slider-center .slider4-data .slider4-select{font-size: 0;text-align: center;}
+.slider4 .slider-center .slider4-data .slider4-select li{color:#fff;display: inline-block;width: 20%;text-align: center;margin-bottom: 20px;font-size:20px;}
+.slider4 .slider-center .slider4-data .slider4-select .-select{display: inline-block;height: 20px;width: 20px;border:2px solid #fff;vertical-align: middle;margin: 0 15px;position: relative;}
+.slider4 .slider-center .slider4-data .slider4-select .-select-active img{top:-15px;left:-5px;position: absolute;}
+.-select-txt{line-height: 45px;font-size:30px;}
+.slider5{width: 100%; margin: 0 auto;background-color: #EDEDED;background-repeat: no-repeat;background-image: url(../../images/thermostat/5.jpg);background-size: cover;background-position: center top;}
+.slider5 .slider-center{width: 1200px;margin: auto;position: relative;}
+.slider5 .slider-center .desc5-txt{position: absolute; width: 590px; height: 360px; background-color: #F3F3F3; text-align: center;left: 50%; margin-top: 200px; margin-left: -295px;}
+.slider5 .slider-center .desc5-txt .desc5-title{margin-top: 100px;}
+.slider5 .slider-center .desc5-txt .desc5-tag{margin-top: 15px;display: inline-block; color: #666;}
+.slider6{width: 100%;height: 850px; margin: 0 auto; background-color: #2F343D;}
+.slider6 .slider-center{width: 1200px;margin: auto;position: relative;}
+.slider6 .slider-center .desc6-txt{text-align: center;}
+.slider6 .slider-center .desc6-txt .desc6-title{letter-spacing: 2px;padding: 80px 0 60px 0;}
+.slider6 .slider-center .desc6_bg{left:350px;}
+.slider-position{left:650px;top:300px;}
+.slider-circle{position: absolute;width: 300px;}
+.slider-sort{margin:20px 0 70px 15px;line-height: 25px;}
+.slider-sort p{margin-top:10px;position: relative;padding-left:50px;}
+.sldier6-mian{opacity: 0.54;}
+.slider-tg{padding-left: 50px;}
+.slider-sort-Control,.slider-sort-order,.slider-sort-electric{background-image: url(../../images/thermostat/6.1_03.png);background-size: cover;vertical-align: top;background-repeat: no-repeat;display: inline-block; width: 45px; height: 45px; position: absolute;}
+.slider-sort-Control{background-position:0 -150px }
+.slider-sort-order{background-position:0 -73px }
+.slider-sort-electric{background-position:0 0}
+.slider7{width: 100%; margin: 0 auto;background-color: #EDEDED;background-repeat: no-repeat;background-image: url(../../images/thermostat/7.jpg);background-size: cover;background-position: center top;}
+.slider7 .slider-center{width: 1200px;margin: auto;position: relative;}
+.slider7 .slider-center .desc7-txt{position: relative;}
+.slider7 .slider-center .desc7-txt .desc7-title{padding-top: 100px;text-align: center}
+.slider7 .slider-center .desc7-txt .desc7-tag{margin-top: 15px;display:block; color: #666;text-align: center;line-height: 25px;}
+.slider7 .slider-center .bg-Control{left: 50%;}
+.slider8{width: 100%; margin: 0 auto;background-color: #F6F6F6;}
+.slider8 .slider-center{width: 1200px;margin: auto;position: relative;}
+.slider8 .slider-center .desc8-title{text-align: center;padding-top: 70px;margin-bottom: 20px;}
+.slider8 .slider-center .desc8-tag{display: block; text-align: center;  line-height: 25px;margin-bottom: 80px;}
+.slider8 .slider-center .slider-circle .bg-1{left: 100px;}
+.slider8 .slider-center .slider-circle .bg-2{left: 550px;}
+.slider8 .slider-center .slider-circle .bg-3{left: 530px;}
+.slider8 .slider-center .slider-circle .bg-4{left:700px;}
+.slider8 .slider-center .slider-circle .bg-5{left:820px;}
+.slider8 .slider-center .slider-circle .bg-5{margin-top: 20px;}
+.slider9{width: 100%; height:400px; margin:0 auto;background-repeat: no-repeat;background-image: url(../../images/thermostat/9.png);background-size: cover;background-position: center top;}
+.slider9 .slider-center{width: 1200px;margin: auto;position: relative;}
+.slider9 .slider-center .desc8-title{text-align: center;padding-top: 70px;margin-bottom: 20px;}
+.desc9-txt{position: relative;padding-top:190px; }
+.desc9-tag{line-height: 25px;}
+.desc9-title{margin-bottom: 20px;}

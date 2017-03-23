@@ -1,0 +1,56 @@
+.address-mianouter{width:918px;overflow: hidden;padding-bottom: 260px;}
+.address-mian{width: 940px;}
+.address{width: 296px;position:relative;height: 240px;*width:264px;*height:200px;margin-right:15px;border: 1px solid #dcdcdc;padding: 20px 15px;float: left;margin-top:20px; }
+.address:hover,.address .on{border: 1px solid #ff6200;}
+.address h5{width: 100%;text-align: center;padding-bottom: 20px;border-bottom: 1px solid #dcdcdc;color: #999;}
+.address p{padding-left: 30px;line-height: 30px;margin: 0;margin-top: 5px;}
+.address p.adree-name{background: url(http://fe.ibaixiong.com/shop/image/son.png) 5px 7px no-repeat;}
+.address p.adree-tele{background: url(http://fe.ibaixiong.com/shop/image/tele.png) 5px 7px no-repeat;}
+.address p.adree-address{background: url(http://fe.ibaixiong.com/shop/image/address.png) 5px 7px no-repeat;width:234px;}
+.address-edit,.address-del{padding: 0 5px;color: #666;}
+.address p.op{display:none;text-align: right;position: absolute;bottom: 0;right: 10px;}
+.address:hover p.op{display: block;}
+.address-edit:hover,.address-del:hover{color: #ff6200;}
+.address-add{}
+.editdiv-box{border: 1px solid #ff6200;height: 240px;width: 296px;position: absolute;top: -1px;left: -1px;background: #fff;padding: 20px 15px;z-index: 9999;}
+.address-add input,.address-add textarea{width: 242px;max-width: 242px;border: 1px solid #dcdcdc;height:30px;padding-left: 10px;margin-left: 15px;margin-top: 18px;}
+.address-add input.small{float: left;width: 108px;float: left;margin-top: 10px;}
+.address-add textarea{height: 70px;max-height: 70px;}
+.address-add .true{margin:18px 20px 0 65px }
+.address-add .cancel,.cancel:hover{color: #999;}
+.address.add{background: url(http://fe.ibaixiong.com/shop/image/address_add2.png) center no-repeat #f7f9fb;cursor: pointer;} 
+.address-mian .add:hover{background: url(http://fe.ibaixiong.com/shop/image/address_add.png) center no-repeat #f7f9fb;}
+.addressSelect{line-height: 30px;margin: 18px 0 0 15px;color: #666;}
+.addressSelect div.sele{border: 1px solid #dcdcdc;float: left;width: 110px;height: 30px;color:#b8b8b8;background: url(http://fe.ibaixiong.com/shop/image/address_arrow.png) 93px 15px no-repeat; position: relative;}
+.addressSelect div.city{margin-left: 20px;}
+.addressSelect div.town{margin-top:18px;}
+.addressSelect div .txt{display:block;color:#b8b8b8;font-style: normal;padding-left: 10px;cursor: pointer;width: 100px;height: 30px;text-overflow: ellipsis; overflow: hidden;}
+.addressSelect span{width: 55px;display: block;float: left;}
+.loc{background:#fff;display:none;width: 110px;border: 1px solid #dcdcdc;height: 249px;overflow-y:scroll;border-top:none;position: absolute;top: 30px;left: 0;z-index: 99;background: #fff;  }
+.loc li{line-height: 30px;padding-left:10px;font-size: 14px;cursor: pointer;}
+:root .loc{width: 126px\9\0;}
+.loc li:hover{color: #333;}
+span.street{
+	overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.address-defed{color:#ff6200;}
+.address-def{color:#00a0e9;}
+/*dialog*/
+.marker{display:block;overflow:hidden;/*background-color: rgba(0,0,0,0.6);background-color: #000\9;filter:alpha(opacity=50);*/width: 100%;text-align:center;height: 100%;z-index: 99;position:fixed;top: 0;left: 0;}
+.dialogWrap{display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;height:100%;width:100%}
+.dialog{width: 510px;padding:20px;position:absolute;z-index:9999;background:#fff;padding-bottom: 30px;height:285px;height:290px\9;*height:230px;text-align:left;margin: 0 auto;margin-top: -140px;margin-left:-255px;top:50%;}
+@media screen and (-webkit-min-device-pixel-ratio:0) { .dialog{margin-top: 0;top:0;} }
+.dialog h2 .close{display: block;width: 15px;height: 15px;background: url(http://fe.ibaixiong.com/shop/image/dialog_close.png) no-repeat 0 0;position: absolute;top: 3px;right: 0;}
+.dialog h2{position:relative;font-size: 18px;padding-left:15px;padding-bottom:18px;color:#666; border-bottom:1px solid #dcdcdc; }
+.d-mask{z-index: 1000; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;background:#000;filter:alpha(opacity=50);opacity: 0.5;}
+.question-mark{display: inline-block;width: 38px;height: 44px;margin-top:32px;background: url(http://fe.ibaixiong.com/shop/image/question-mark.png) no-repeat 0 0;}
+.question-sure-text{text-align:center;font-size: 16px;color: #666;font-family: '\5FAE\8F6F\96C5\9ED1';margin: 20px 0 45px;}
+.question-dialog-btn{height: 30px;line-height:30px;}
+.question-dialog-btn .new-orange-btn{margin-right:10px;height: 30px;line-height: 30px;padding: 0 20px;}
+.question-dialog-btn .new-orange-btn:hover{text-decoration: none;}
+.question-dialog-btn .cancel{color: #666;}
+.question-dialog-btn .cancel:hover{color:#ff6200;text-decoration: underline;};

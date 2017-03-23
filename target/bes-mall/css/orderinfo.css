@@ -1,0 +1,196 @@
+.info {clear:both;padding-top:32px;}
+.info h6{width: 85px;font-size: 14px;color: #666;line-height: 30px;float: left;}
+.info-right{float: left;width:90%;}
+.info-right p{line-height: 30px;color: #666;margin-bottom:0;text-align:left;}
+.info-right p span{width: 55px;display: inline-block;}
+.info-right p input{width: 324px;height: 30px;border: 1px solid #dcdcdc;padding-left: 10px;}
+.info-right p input.small{width: 100px;margin-right: 11px;}
+.info-right .save{margin: 20px 20px 0 100px; }
+.info-right .cancel{color: #999;}
+.info-right .time{width: 150px;height: 90px;border: 1px solid #dcdcdc;float: left;margin-right: 10px;cursor:pointer;}
+.info-right .time:hover{border: 1px solid #ff6200;}
+.info-right .time.on{border: 1px solid #ff6200;background: url(http://fe.ibaixiong.com/shop/image/time_bg.png) right bottom no-repeat;}
+.info-right .time p{margin: 0;text-align: center;line-height: 20px;}
+.info-right .time p.big{margin-top: 20px;font-size: 16px;color:#666;}
+.info-right .time p.small{font-size: 12px;color:#999;}
+.info-right textarea{width: 470px;height: 95px;border: 1px solid #dcdcdc;resize:none;}
+.info-right table{border: 1px solid #dcdcdc;width: 1030px;}
+.info-right table th{background: #f2f2f2;font-size:14px;height: 40px;color:#666;line-height: 40px;text-align: center;}
+.info-right table td{padding: 10px;text-align: center;font-size:14px;color:#666;}
+.info-right table td img{width:100px;height: 100px;display: inline-block;float:left;}
+.info-right table td.total{color: #ff6200;}
+.info-money{padding-top: 10px;*margin-right:40px;}
+.info-money p{text-align: right;font-size: 12px;margin: 0;line-height: 20px;}
+.add-address{display: none;}
+.info-money p.score{margin-bottom: 10px;}
+.info-money p span{display: inline-block;width: 85px;text-align: right;color: #ff6200;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;line-height:11px;}
+.info-money p input{display: inline-block;margin-right: 5px;}
+.info-money p.pay span{font-size: 14px;margin-top: 10px;}
+.info-money span.info-money-line{display:block;width: 265px;border-bottom: 1px solid #dcdcdc;margin: 20px 0;  float: right;}
+.info-money label{font-weight: normal;margin-bottom: 0;}
+.info-money-btn{clear:both;text-align: right;padding-top: 15px;}
+.info-money-btn .go-continue{color: #333;}
+.info-money-btn .go-continue:hover{color: #ff6200;text-decoration: underline;}
+.history-address h5{width:700px;}
+.history-address h5{line-height: 30px;font-size: 14px;margin-left:32px;}
+.history-address h5 label{width:100%;margin-right: 10px;margin-left:-32px;font-weight: normal;cursor:pointer;}
+
+/*select */
+.addressSelect{line-height: 30px;margin-bottom: 20px;color: #666;}
+.addressSelect div.sele{border: 1px solid #dcdcdc;float: left;width: 100px;height: 30px;color:#b8b8b8;background: url(http://fe.ibaixiong.com/shop/image/address_arrow.png) 83px 15px no-repeat; margin-right: 12px;position: relative;}
+.addressSelect div .txt{    display: block; color: #b8b8b8; font-style: normal;padding-left: 10px;cursor: pointer; width: 100px; height: 30px; text-overflow: ellipsis;overflow: hidden;}
+.addressSelect span{width: 55px;display: block;float: left;}
+.loc{display:none;width:100px;border: 1px solid #dcdcdc;height: 300px;overflow-y:scroll;border-top:none;position: absolute;top: 30px;left: 0;z-index: 99;background: #fff;  }
+:root .loc{width: 116px\9\0;}
+.loc li{cursor:pointer;line-height: 30px;padding-left:10px;font-size: 14px; }
+.loc li:hover{color: #333;}
+
+.info-right p.code-sum span{
+	width:auto;
+}
+
+/*radio样式*/
+.body {
+	background: #fff;
+	padding: 0; margin: 0;
+}
+
+#holder {
+	width: 100%;
+}
+
+#holder > div {
+	clear: both;
+	padding: 2%;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	float: left;
+	width: 96%;
+}
+
+label {
+	display: inline;
+}
+
+.regular-checkbox {
+	display: none;
+}
+
+.regular-checkbox + label {
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+    margin-bottom: 0;
+}
+
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked + label {
+	background-color: #fff;
+	border: 1px solid #ff6200;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked + label:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #ff6200;
+}
+
+
+.big-checkbox + label {
+	padding: 18px;
+}
+
+.big-checkbox:checked + label:after {
+	font-size: 28px;
+	left: 6px;
+}
+
+.tag {
+	font-family: Arial, sans-serif;
+	width: 200px;
+	position: relative;
+	top: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+}
+
+.radio-1 {
+	width: 193px;
+}
+
+.button-holder {
+	float: left;
+}
+
+/* RADIO */
+
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #99a1a7;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.regular-radio:checked + label {
+	background-color: #e9ecee;
+	color: #99a1a7;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.big-radio + label {
+	padding: 16px;
+}
+
+.big-radio:checked + label:after {
+	width: 24px;
+	height: 24px;
+	left: 4px;
+	top: 4px;
+}
+.info-right>.d_g{
+	margin-left:25px;
+}
+.info-right>.d_g:nth-child(1){
+	margin-left:0;
+}

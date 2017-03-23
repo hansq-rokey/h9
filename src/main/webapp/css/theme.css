@@ -1,0 +1,546 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+body,html{
+    width: 100%;
+    height:100%;
+    min-width:1400px;
+    min-height:765px;
+    max-width: 1920px;
+    margin:0 auto;
+    background: #08061a;
+}
+li{
+    list-style: none;
+}
+a,input{outline:none;}
+a{
+    text-decoration: none;
+    color:#333333;
+}
+a:hover{
+    text-decoration: none;
+}
+header{
+    height:100px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: none;
+    line-height: 100px;
+    z-index: 9697;
+    transition: background 0.8s;
+    -moz-transition: background 0.8s;
+    -webkit-transition: background 0.8s;
+    -o-transition: background 0.8s;
+}
+/*header:hover{*/
+/*background:#fff;*/
+/*}*/
+.navbox{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.headnav li{
+    display: inline-block;
+    padding:0 16px;
+}
+.headnav li a{
+    color:#8783ab;
+}
+.themelogo{
+    margin:0 35px;
+    opacity: 0.6;
+}
+.row{
+    margin:10px 30px;
+}
+.content-box{
+    min-height:870px;
+}
+.content{
+    width: 100%;
+    max-width: 1920px;
+    height:100%;
+    overflow: hidden;
+    background: url("http://fe.ibaixiong.com/shop/images/bodybg.jpg") center top no-repeat;
+    padding-bottom:100px;
+    position: relative;
+}
+.content-left{
+    width: 837px;
+    height:612px;
+    background: url("http://fe.ibaixiong.com/shop/images/contentbg.png") left top no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left:-586px;
+    top:173px;
+}
+.content-left div{
+    position: absolute;
+    width: 40px;
+    height:40px;
+    z-index: 999;
+}
+.content-left div img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+}
+.head-office{
+    display: block;
+    width: 48px;
+    height:65px;
+    position: absolute;
+    left:595px;
+    top:405px;
+    background:url("http://fe.ibaixiong.com/shop/images/head-office-bg02.png") center center no-repeat;
+}
+.head-office-sun{
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top:8px;
+    right:0;
+}
+.animate-img{
+    width: 48px;
+    height:54px;
+    position: absolute;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+.bluebg,.yellowbg{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 4px;
+    right:0;
+    z-index: 99;
+}
+.yellowbg{
+    top:54px;
+}
+.show-sun,.show-ice{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 100;
+}
+.show-sun{
+    width: 0;
+    height:0;
+}
+.animate1{
+    left: 454px;
+    top:270px;
+    opacity: 1;
+}
+.animate2{
+    left: 326px;
+    top:288px;
+}
+.animate3{
+    left: 536px;
+    top:211px;
+}
+.animate4{
+    left: 575px;
+    top:106px;
+}
+.animate5{
+    left: 674px;
+    top:48px;
+}
+.animate6{
+    left: 140px;
+    top:307px;
+}
+.point1{
+    left:89px;
+    top:250px;
+}
+.point2{
+    left:144px;
+    top:350px;
+}
+.point3{
+    left:189px;
+    top:191px;
+}
+.point4{
+    left:186px;
+    top:247px;
+}
+.point5{
+    left:292px;
+    top:256px;
+}
+.point6{
+    left:359px;
+    top:243px;
+}
+.point7{
+    left:330px;
+    top:330px;
+}.point8{
+     left:362px;
+     top:381px;
+ }
+.point9{
+    left:430px;
+    top:272px;
+}
+.point10{
+    left:459px;
+    top:312px;
+}
+.point11{
+    left:451px;
+    top:405px;
+}
+.point12{
+    left:478px;
+    top:397px;
+}
+.point13{
+    left:503px;
+    top:245px;
+}
+.point14{
+    left:505px;
+    top:256px;
+}
+.point15{
+    left:540px;
+    top:252px;
+}
+.point16{
+    left:547px;
+    top:260px;
+}
+.point17{
+    left:550px;
+    top:286px;
+}
+.point18{
+    left:550px;
+    top:344px;
+}
+.point19{
+    left:565px;
+    top:416px;
+}
+.point20{
+    left:579px;
+    top:384px;
+}
+.point21{
+    left:620px;
+    top:422px;
+}
+.point22{
+    left:579px;
+    top:148px;
+}
+.point23{
+    left:622px;
+    top:163px;
+}
+.point24{
+    left:707px;
+    top:129px;
+}
+.point25{
+    left:641px;
+    top:85px;
+}
+.point26{
+    left:679px;
+    top:90px;
+}
+.point27{
+    left:659px;
+    top:15px;
+}
+/*右侧滚动*/
+.content-right{
+    width:359px;
+    height:765px;
+    overflow: hidden;
+    position: absolute;
+    margin:auto;
+    top:0;
+    right:124px;
+    bottom:0;
+}
+.right-list{
+    width:319px;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left:40px;
+}
+.right-list li{
+    width: 100%;
+    height:183px;
+    margin-bottom:10px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+.item01{
+    background-image: url("http://fe.ibaixiong.com/shop/images/right-li-bg-1.png");
+}
+.item02{
+    background-image: url("http://fe.ibaixiong.com/shop/images/right-li-bg-2.png");
+}
+.item03{
+    background-image: url("http://fe.ibaixiong.com/shop/images/right-li-bg-3.png");
+}
+.item04{
+    background-image: url("http://fe.ibaixiong.com/shop/images/right-li-bg-4.png");
+}
+.item05{
+    background-image: url("http://fe.ibaixiong.com/shop/images/right-li-bg-5.png");
+}
+.item06{
+    background-image: url("http://fe.ibaixiong.com/shop/images/right-li-bg-6.png");
+}
+.on{
+    transition: width 2s;
+    -moz-transition: width 2s;	/* Firefox 4 */
+    -webkit-transition: width 2s;	/* Safari 和 Chrome */
+    -o-transition: width 2s;	/* Opera */
+}
+.right-list li img{
+    width: 34px;
+    height:34px;
+    position: absolute;
+    top:16px;
+    left:-17px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    z-index: 999;
+    opacity:0;
+}
+.text{
+    width: 135px;
+    height:184px;
+    background:url("http://fe.ibaixiong.com/shop/images/textbg.png") left top no-repeat;
+    color:#fff;
+    opacity: 0;
+    padding-left:16px;
+    padding-right:46px;
+    padding-top:60px;
+    vertical-align: middle;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color:#47456f;
+    font-size:12px;
+    position: absolute;
+    bottom:20px;
+    left: 0;
+    z-index: 999;
+}
+.content-bottom{
+    width: 100%;
+    height:45px;
+    position: absolute;
+    bottom:56px;
+    left: 0;
+    text-align: center;
+    z-index: 999;
+}
+.pic-box{
+    display: inline-block;
+    width: 26px;
+    margin:0 17px;
+    cursor: pointer;
+    position: relative;
+}
+.user-list{
+    height: 220px;
+    width:167px;
+    position: absolute;
+    top:-230px;
+    left:-70px;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding:13px 9px;
+    display: none;
+}
+.user-list img{
+    width: 136px;
+    height:134px;
+    float: left;
+    margin:5px;
+}
+.red{
+    color:#ff3600;
+    font-size:16px;
+}
+.user-list p{
+    font-size:12px;
+    color:#333;
+    margin-top:5px;
+    float: left;
+}
+.pic-box:hover div.user-list{
+    display: block;
+}
+/*打开部分*/
+.left-list{
+    width: 0;
+    height:0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right:0;
+    display: none;
+    z-index: 9789;
+    background: black;
+}
+.right-item{
+    width:359px;
+    height:100%;
+    overflow: hidden;
+    position: absolute;
+    margin:auto;
+    top:0;
+    right:0;
+    background: #130f37;
+    z-index: 1000;
+    padding-top:160px;
+    color:#fff;
+}
+.right-item div{
+    padding:0 40px;
+}
+.right-item p{
+    line-height:26px;
+    height:200px;
+}
+.userimg{
+    width: 40px;
+    height:40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.open01{
+    background: url("http://fe.ibaixiong.com/shop/images/openbg-1.png") center center no-repeat;
+}
+.open02{
+    background: url("http://fe.ibaixiong.com/shop/images/openbg-2.png") center center no-repeat;
+}
+.open03{
+    background: url("http://fe.ibaixiong.com/shop/images/openbg-3.png") center center no-repeat;
+}
+.open04{
+    background: url("http://fe.ibaixiong.com/shop/images/openbg-4.png") center center no-repeat;
+}
+.open05{
+    background: url("http://fe.ibaixiong.com/shop/images/openbg-5.png") center center no-repeat;
+}
+.open06{
+    background: url("http://fe.ibaixiong.com/shop/images/openbg-6.png") center center no-repeat;
+}
+.left-item{
+    height:100%;
+    width: 1544px;
+    position: absolute;
+    right:359px;
+    top:0;
+    background-size: cover;
+    z-index: 1001;
+    background-color: #fff;
+}
+.left-list li{
+    width: 100%;
+    height:100%;
+    display: none;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.close-icon{
+    width: 52px;
+    height:52px;
+    display: block;
+    position: absolute;
+    right:10px;
+    top:10px;
+    z-index: 9999;
+    cursor: pointer;
+    background: url("http://fe.ibaixiong.com/shop/images/close.png") center center no-repeat;
+}
+.close-icon:hover{
+    background: url("http://fe.ibaixiong.com/shop/images/close-hover.png") center center no-repeat;
+}
+.sun-box{
+    width: 25px;
+    height:25px;
+    position: absolute;
+    left:228px;
+    top:153px;
+    display: block;
+    z-index: 1000;
+}
+.sun-img,.light-img{
+    position:absolute;
+    margin: auto;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 1111;
+}
+.light-img{
+    z-index: 1112;
+    transition: width 2s;
+    -moz-transition: width 2s;
+    -webkit-transition: width 2s;
+    -o-transition: width 2s;
+}
+.small-map-box{
+    width: 322px;
+    height:260px;
+    background: url("http://fe.ibaixiong.com/shop/images/mapbg.png") center center no-repeat;
+    margin-left:20px;
+    position: relative;
+    margin-top:100px;
+}
+.sec-bg{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 9999;
+}

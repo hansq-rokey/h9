@@ -1,0 +1,172 @@
+.user-orderlist-box{
+	margin-top: 16px;
+	border: 1px solid #dcdcdc;
+}
+
+.user-orderlist-title{
+	height: 38px;
+	line-height: 38px;
+	background: #f2f2f2;
+	font-family: '微软雅黑';
+}
+
+.user-orderlist-title em{
+	color: #666;
+	font-style: normal;
+}
+
+.user-orderlist-title span{
+	color: #333;
+	margin-right: 10px;
+}
+
+.user-orderlist-title .checkbox{
+	margin: 12px 14px 0 14px;
+	*margin: 9px 14px 0 14px;
+	cursor: pointer;
+}
+
+.user-orderlist-table td{
+	vertical-align: top;
+	color: #666;
+	font-size: 12px;
+}
+
+.user-orderlist-table td .pic-show{
+	display: inline-block;
+	width: 96px;
+	height: 96px;
+	margin: 15px 0px 13px 30px; 
+	float:left;
+}
+
+
+.user-orderlist-table td.sale{
+	vertical-align: middle;
+	width: 136px;
+}
+
+.user-orderlist-table td.num{
+	vertical-align: middle;
+	width: 62px;
+}
+
+.user-orderlist-table td.total{
+	width: 118px;
+	text-align: center;
+}
+
+.user-orderlist-table td.pay{
+	width: 120px;
+	text-align: center;
+}
+
+.user-orderlist-table td.operate{
+	width: 120px;
+	text-align: center;
+}
+.operate p{
+	margin:10px 0;
+}
+.user-orderlist-table td.operate .detail{
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+/*确认收货*/
+.Confirm_goods{
+	background-color: #FF6200;
+    color: #fff !important;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px rgba(255,98,0,0.5);
+    padding: 5px;
+}
+.user-orderlist-table td.operate .detail:hover,.user-orderlist-table td.operate .detail_on{
+	color: #ff6200;
+	text-decoration: underline;
+}
+
+
+.user-orderlist-table td.line-right{
+	border-right: 1px solid #dcdcdc;
+}
+
+.user-orderlist-table td.line-left{
+	border-left: 1px solid #dcdcdc;
+	vertical-align: middle;
+}
+
+
+.user-orderlist-table .new-orange-btn{
+	height: 24px;
+	line-height: 24px;
+	padding: 0 11px;
+	font-size: 12px;
+}
+.order-nav li{width: 100px;float: left;text-align: center;height: 40px;color: #999;}
+.order-nav li.on a{color: #333;border-bottom: 2px solid #ff7d42;}
+/* 物流信息 */
+.logistics{z-index:80;display:block;width: 258px;*width:214px;position:absolute;top:25px;left:-99px;font-size:12px;border: 1px solid #dcdcdc;background: #fff;padding: 20px;}
+.logistics h5{font-weight:normal;margin:0;font-size:12px;border-bottom: 1px solid #dcdcdc;line-height: 25px; height:30px;text-align: left;}
+.arrow{background: url(http://fe.ibaixiong.com/shop/image/arrow.png) center center no-repeat;width: 10px;height: 7px;display: block;position: absolute;top: -6px;left: 143px;}
+.logistics-list li{*width:180px;*overflow:hidden;list-style:none;margin: 20px 0 0 10px;color:#999;padding-right: 20px;padding-left:14px;background: url(http://fe.ibaixiong.com/shop/image/logistics-listlibg.png) no-repeat 0 6px;}
+.logistics-list p{margin:0;width: 100%;text-align: left;float: none;padding-left:0;}
+.logistics-list li.now{background: url(http://fe.ibaixiong.com/shop/image/logistics-listlibgcurrent.png) no-repeat 0 6px;}
+.logistics-list li.now p{color: #ff6200;}
+/*邀请码*/
+.user-invitelist-table{
+	width:100%;
+	text-align:center;
+	border:1px solid #dcdcdc;
+	margin-top:28px;
+}
+.user-invitelist-table tr td{
+	border-bottom:1px solid #dcdcdc;
+}
+.user-invitelist-table thead{
+	background:#f7f7f7;
+	color:#666666;
+	line-height:38px;
+	font-weight:bold;
+}
+.user-invitelist-table tbody{
+	color:#999;
+}
+.user-invitelist-table tbody tr td{
+	height:100px;
+}
+.none-invite-pic i{
+	width: 150px;
+    height: 106px;
+    display: inline-block;
+    background: url(http://fe.ibaixiong.com/shop/images/none-invite-pic.png) no-repeat 0 0;
+}
+.showProduct{
+	width:100%;
+	position:relative;
+	height:30px;
+	padding-bottom:12px;
+}
+.linearrow{
+	width:10px;
+	height:10px;
+	border-left:1px solid #dcdcdc;
+	border-top:1px solid #dcdcdc;
+	transform:rotate(45deg);
+	position:absolute;
+	top:-6px;
+	background:#fff;
+	left:96px;
+}
+.looktit{
+	width:200px;
+	min-height:80px;
+	border:1px solid #dcdcdc;
+	padding:10px;
+	text-align:center;
+	position:absolute;
+	top:30px;
+	left:-86px;
+	background:#fff;
+	z-index:999;
+}

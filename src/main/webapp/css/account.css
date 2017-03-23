@@ -1,0 +1,113 @@
+.account-container{padding: 30px 20px;}
+.account-container p{margin-bottom: 10px;padding-left: 15px;}
+.account-container a{color: #32a5e7;}
+.account-container em{font-style: normal;padding: 0 15px;}
+.account-container span{width: 75px;line-height: 40px;}
+.account-container .mt30{margin-top: 30px;}
+.account-container h3{font-size: 14px;font-weight:normal;padding-left:15px;color: #333333;line-height: 100px;}
+.three-login{float: left;width: 165px;}
+.three-login img{display: block;margin:20px auto;}
+.three-login.wx img{margin-bottom: 0px;}
+.three-login.qq{margin-left: 20px;}
+.three-login.wx{margin-left: 170px;}
+.three-login .bn{display: block;margin:0 auto;width: 90px;border: 1px solid #ff7d42;text-align: center;height: 30px;padding-top:5px;color: #ff7d42;}
+.three-login .bn.gray{border: 1px solid #dcdcdc;color: #dcdcdc;}
+.three-login p,.three-login p a{text-align: center;margin: 0;padding-left: 0;line-height: 18px}
+.three-login p a{font-size: 12px;}
+/*����*/
+.addtypename{
+    display: inline-block;
+    width: 60px;
+    vertical-align: top;
+    margin-top:5px;
+    text-align: left;
+    height:30px;
+    line-height:30px;
+}
+.pop{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 9999;
+    display: none;
+}
+.popbg{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 989;
+    background: #000;
+    opacity: 0.5;
+}
+.poptitle{
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #dcdcdc;
+    text-align: left;
+    text-indent: 5px;
+    margin-bottom:30px;
+}
+.layel{
+    width: 500px;
+    height:340px;
+    background: #fff;
+    padding:10px 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left:-250px;
+    margin-top:-170px;
+    z-index: 999;
+}
+.nextstep{
+    width: 100px;
+    height:30px;
+    background: #ff6200;
+    color:#fff;
+    border:none;
+}
+.bindlayel div{
+    text-align: center;
+    padding:10px 0;
+}
+.bindlayel div input[type=text]{
+    width: 200px;
+    height:30px;
+    border:1px solid #dcdcdc;
+}
+.yzm{
+    width: 80px;
+    height:22px;
+    text-align: center;
+    display: inline-block;
+    font-size:12px;
+    color:#999;
+    margin-left:-80px;
+    border-left:1px solid #dcdcdc;
+    cursor: pointer;
+    vertical-align: top;
+    margin-top:4px;
+    line-height:22px;
+}
+.closeicon{
+    width: 9px;
+    height:9px;
+    display: inline-block;
+    background:url("http://fe.ibaixiong.com/shop/image/icon.png") no-repeat -288px -12px;
+    float: right;
+    margin-right:12px;
+    margin-top:11px;
+    cursor: pointer;
+}
+p.prompt{
+    color:#ff6200;
+    font-size:12px;
+    text-align: left;
+    text-indent:167px;
+    display: none;
+    margin:0;
+}

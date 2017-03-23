@@ -1,0 +1,1177 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000332}}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 4px 14.24px 1.76px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000341}}
+.header .header_box {
+  width: 1200px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  line-height: 100px;
+  font-size: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000348}}
+.header .header_box p {
+  font-size: 40px;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000352}}
+.header .header_box .btn {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000357}}
+.header .header_box .btn a {
+  top: 20px;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #ff4600;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  right: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000371}}
+.header .header_box .btn .select_box {
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000376}}
+.header .header_box .btn .select_box li {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000385}}
+.slider1 {
+  margin-top: 100px;
+  background: url(../img/1.00.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000391}}
+.slider1 .desc1 {
+  position: absolute;
+  width: 400px;
+  top: 300px;
+  right: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\0000396}}
+.slider1 .desc1 h1 {
+  font-weight: 300;
+  font-size: 60px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003101}}
+.slider1 .desc1 p {
+  margin-top: 40px;
+  font-size: 16px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003108}}
+.silder2 {
+  height: 800px;
+  background-image: url(../img/2_02.png);
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003114}}
+.silder2 .slider2_tag {
+  width: 100%;
+  height: 258px;
+  padding-top: 40px;
+  overflow: hidden;
+  font-size: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003120}}
+.silder2 .slider2_tag figure {
+  width: 25%;
+  padding: 0 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003125}}
+.silder2 .slider2_tag figure .icon {
+  height: 60px;
+  width: 60px;
+  background-image: url(../img/2icon.png);
+  background-size: cover;
+  display: inline-block;
+  margin: 0 65px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003133}}
+.silder2 .slider2_tag figure .icon1 {
+  background-position: -19px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003134}}
+.silder2 .slider2_tag figure .icon2 {
+  background-position: -68px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003135}}
+.silder2 .slider2_tag figure .icon3 {
+  background-position: -123px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003136}}
+.silder2 .slider2_tag figure .icon4 {
+  background-position: -174px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003137}}
+.silder2 .slider2_tag figure h1 {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #526d8a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003142}}
+.silder2 .slider2_tag figure h1:after {
+  display: "table";
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003147}}
+.silder2 .slider2_tag figure p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003156}}
+.silder2 .desc2 {
+  margin-top: 180px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003158}}
+.silder2 .desc2 h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 60px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003164}}
+.silder2 .desc2 p {
+  opacity: 0.8;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003174}}
+.silder3 {
+  height: 800px;
+  width: 100%;
+  background-color: #252B2F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003178}}
+.silder3 .desc3 {
+  width: 400px;
+  top: 400px;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003182}}
+.silder3 .desc3 h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 60px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003188}}
+.silder3 .desc3 p {
+  opacity: 0.8;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003198}}
+.silder4 {
+  position: relative;
+  height: 800px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003201}}
+.silder4 .desc4 {
+  position: absolute;
+  margin-top: 350px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003204}}
+.silder4 .desc4 h1 {
+  text-align: left;
+  line-height: 65px;
+  font-weight: 300;
+  font-size: 44px;
+  color: #282a41;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003211}}
+.silder4 .desc4 p {
+  text-align: left;
+  line-height: 30px;
+  margin-top: 40px;
+  font-size: 20px;
+  color: #282a41;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003220}}
+.silder4 .circle .img1_1 {
+  top: 200px;
+  right: 0;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003225}}
+.silder4 .circle .img1_2 {
+  top: -80px;
+  right: 110px;
+  z-index: 3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003230}}
+.silder4 .circle .img1_3 {
+  opacity: 0;
+  right: -75px;
+  top: 510px;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003238}}
+.slider5 {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-image: url(../img/8_02.png);
+  background-position: top center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003245}}
+.slider5 .slider-wrapper {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003250}}
+.slider5 .slider-wrapper .circle5 {
+  position: relative;
+  width: 820px;
+  height: 515px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003256}}
+.slider5 .slider-wrapper .circle5 .bg5_1 {
+  top: 116px;
+  width: 847px;
+  height: 415px;
+  left: -24px;
+  z-index: 11;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003264}}
+.slider5 .slider-wrapper .circle5 .circle_box .circle_bg {
+  position: absolute;
+  left: 50%;
+  top: 70px;
+  margin-left: -169.5px;
+  width: 339px;
+  height: 144px;
+  background: url(../img/8.1_03.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003275}}
+.slider5 .slider-wrapper .circle5 .circle_box .circle_bg1 {
+  animation: width   3s linear infinite ;
+  -webkit-animation: width 3s linear  infinite ;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003281}}
+.slider5 .slider-wrapper .circle5 .circle_box .circle_bg2 {
+  animation: width   3s linear 1.5s infinite ;
+  -webkit-animation: width 3s linear  1.5s infinite ;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003287}}
+.slider5 .slider-wrapper .circle5 .circle_box .circle_bg3 {
+  animation: width   3s linear 3s infinite ;
+  -webkit-animation: width 3s linear  3s infinite ;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003295}}
+.slider5 .slider-wrapper .desc5 {
+  width: 100%;
+  height: 215px;
+  text-align: center;
+  padding-top: 80px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003303}}
+.slider5 .slider-wrapper .desc5 h1 {
+  text-align: center;
+  line-height: 65px;
+  font-weight: 300;
+  font-size: 60px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003310}}
+.slider5 .slider-wrapper .desc5 p {
+  text-align: center;
+  line-height: 30px;
+  margin-top: 40px;
+  font-weight: 100;
+  font-size: 20px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003320}}
+.slider5 .bg5_box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../img/80.05.png) top center;
+  background-size: cover;
+  z-index: 5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003331}}
+.slider6 {
+  height: 1028px;
+  padding-top: 170px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003335}}
+.slider6 .slider_wrapper .desc6 {
+  position: relative;
+  width: 865px;
+  height: 502px;
+  margin: 10px auto;
+  border: 5px solid #FFC065;
+  overflow: hidden;
+  padding: 90px 30px 90px 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003343}}
+.slider6 .slider_wrapper .desc6 h1 {
+  font-size: 60px;
+  color: #282a41;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003349}}
+.slider6 .slider_wrapper .desc6 h2 {
+  font-size: 25px;
+  color: #282a41;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003355}}
+.slider6 .slider_wrapper .desc6 p {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003362}}
+.slider6 .slider_wrapper .append_desc6 {
+  position: absolute;
+  width: 1200px;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -650px;
+  font-size: 0;
+  bottom: 30px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003371}}
+.slider6 .slider_wrapper .append_desc6 li {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003377}}
+.slider6 .slider_wrapper .append_desc6 li .append_top {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003383}}
+.slider6 .slider_wrapper .append_desc6 li .append_foot {
+  font-size: 16px;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003387}}
+.slider6 .slider_wrapper .append_desc6 li:last-child {
+  border-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003393}}
+.slider6 .slider_wrapper .circle6 .bg6_1 {
+  width: 1023px;
+  height: 697px;
+  /* top: 240px; 
+  				     left: 150px; */
+  top: 250px;
+  left: 460px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003404}}
+.slider7 {
+  height: 800px;
+  background: url(../img/6_02.png) top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003409}}
+.slider7 .slider-wrapper {
+  padding-top: 100px;
+  width: 1200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003414}}
+.slider7 .slider-wrapper .desc7 h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003421}}
+.slider7 .slider-wrapper .desc7 p {
+  margin-top: 20px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 25px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003431}}
+.slider7 .slider-wrapper .append_desc7 {
+  margin-top: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003433}}
+.slider7 .slider-wrapper .append_desc7 li {
+  width: 30%;
+  height: 70px;
+  margin-top: 40px;
+  display: inline-block;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003439}}
+.slider7 .slider-wrapper .append_desc7 li span {
+  display: block;
+  word-break: break-all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003443}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 52px;
+  background-image: url(../img/6_04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003452}}
+.slider7 .slider-wrapper .append_desc7 li .append_txt {
+  height: 100%;
+  display: block;
+  margin-left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003456}}
+.slider7 .slider-wrapper .append_desc7 li .append_txt em {
+  display: block;
+  font-style: normal;
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003462}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon1 {
+  background-position: -22px -17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003463}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon2 {
+  background-position: -132px -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003464}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon3 {
+  background-position: -256px -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003465}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon4 {
+  background-position: -22px -77px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003466}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon5 {
+  background-position: -132px -77px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003467}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon6 {
+  background-position: -256px -77px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003468}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon7 {
+  background-position: -22px -143px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003469}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon8 {
+  background-position: -132px -143px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003470}}
+.slider7 .slider-wrapper .append_desc7 li .append_icon9 {
+  background-position: -256px -143px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003475}}
+.slider8 {
+  height: 740px;
+  width: 100%;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003479}}
+.slider8 .slider-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003482}}
+.slider8 .slider-wrapper .desc8 {
+  width: 700px;
+  height: 240px;
+  text-align: center;
+  padding-top: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003489}}
+.slider8 .slider-wrapper .desc8 h1 {
+  font-size: 60px;
+  color: #282a41;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003496}}
+.slider8 .slider-wrapper .desc8 p {
+  margin-top: 20px;
+  text-align: left;
+  color: #282a41;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 25px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003505}}
+.slider8 .slider-wrapper .desc8 .bg_txt {
+  font-size: 15px !important;
+  right: 100px;
+  position: absolute;
+  top: 320px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003512}}
+.slider8 .slider-wrapper .bg8_1 {
+  left: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003513}}
+.slider8 .slider-wrapper .bg8_2 {
+  left: 600px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003515}}
+.slider8 .slider-wrapper .circle .circle8_mobg {
+  position: absolute;
+  width: 436px;
+  height: 350px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003519}}
+.slider8 .slider-wrapper .circle .circle8_mobg img {
+  margin-top: 20px;
+  opacity: 1;
+  position: absolute;
+  transition: all 2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003525}}
+.slider8 .slider-wrapper .circle .circle8_mobg .circ_1 {
+  top: 9px;
+  left: 10px;
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003530}}
+.slider8 .slider-wrapper .circle .circle8_mobg .circ_2 {
+  left: -140px;
+  top: 42px;
+  z-index: 11;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003535}}
+.slider8 .slider-wrapper .circle .circle8_mobg .circ_3 {
+  left: 157px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003538}}
+.slider8 .slider-wrapper .circle .circle8_mobg .circ_4 {
+  left: 340px;
+  top: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003542}}
+.slider8 .slider-wrapper .circle .circle8_mobg .circ_txt {
+  font-size: 14px !important;
+  position: absolute;
+  top: 320px;
+  left: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003553}}
+.slider10 {
+  height: 800px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003555}}
+.slider10 .slider-wrapper {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003560}}
+.slider10 .slider-wrapper .desc10 {
+  width: 590px;
+  top: 300px;
+  right: 0;
+  text-align: center;
+  padding-top: 80px;
+  margin: 0 auto;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003568}}
+.slider10 .slider-wrapper .desc10 h1 {
+  font-size: 60px;
+  color: #282a41;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003575}}
+.slider10 .slider-wrapper .desc10 p {
+  margin-top: 20px;
+  text-align: left;
+  color: #282a41;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 25px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003585}}
+.slider10 .slider-wrapper .bg10_1 {
+  left: -100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003588}}
+.slider10 .slider-wrapper .append_desc10 {
+  position: absolute;
+  overflow: hidden;
+  left: 286px;
+  top: 225px;
+  width: 240px;
+  height: 414px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003600}}
+.slider11 {
+  width: 100%;
+  height: 944px;
+  background-image: url(../img/10_02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003607}}
+.slider11 .slider-wrapper {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003612}}
+.slider11 .slider-wrapper .desc11 {
+  width: 700px;
+  text-align: center;
+  padding-top: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003618}}
+.slider11 .slider-wrapper .desc11 h1 {
+  font-size: 60px;
+  color: #282a41;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003625}}
+.slider11 .slider-wrapper .desc11 p {
+  margin-top: 20px;
+  text-align: left;
+  color: #282a41;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 25px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003636}}
+.slider11 .slider-wrapper .circle .bg11_1 {
+  left: 50%;
+  top: 345px;
+  margin-left: -389px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003644}}
+.slider12 {
+  width: 100%;
+  height: 800px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003647}}
+.slider12 .slider-wrapper {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003652}}
+.slider12 .slider-wrapper .desc12 {
+  width: 800px;
+  text-align: center;
+  padding-top: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003658}}
+.slider12 .slider-wrapper .desc12 h1 {
+  font-size: 60px;
+  color: #282a41;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003665}}
+.slider12 .slider-wrapper .desc12 p {
+  width: 400px;
+  margin: 40px auto;
+  color: #282a41;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 30px;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003677}}
+.slider12 .slider-wrapper .circle .bg12_1 {
+  margin-top: 80px;
+  left: 50%;
+  margin-left: -960px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003689}}
+.slider16 {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003691}}
+.slider16 .slider-wrapper {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003696}}
+.slider16 .slider-wrapper .desc15 h1 {
+  font-size: 60px;
+  color: #282a41;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003704}}
+.slider16 .slider-wrapper .content {
+  width: 100%;
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #F8F6F7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003709}}
+.slider16 .slider-wrapper .content .content_title {
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #E4E3E4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003713}}
+.slider16 .slider-wrapper .content .content_title p {
+  font-size: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003716}}
+.slider16 .slider-wrapper .content .content_title .price {
+  color: #ff4600;
+  margin-left: 20px;
+  font-size: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003720}}
+.slider16 .slider-wrapper .content .content_title .price:before {
+  content: "¥";
+  padding: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003726}}
+.slider16 .slider-wrapper .content .content_item {
+  margin: 15px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003728}}
+.slider16 .slider-wrapper .content .content_item:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003733}}
+.slider16 .slider-wrapper .content .content_item h1 {
+  font-size: 18px;
+  font-weight: 100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003737}}
+.slider16 .slider-wrapper .content .content_item .content_wrap {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003739}}
+.slider16 .slider-wrapper .content .content_item .content_wrap input[type="radio"] {
+  opacity: 0;
+  margin: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003743}}
+.slider16 .slider-wrapper .content .content_item .content_wrap .choose_l {
+  display: inline-block;
+  background-color: #fff;
+  padding: 15px 40px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003751}}
+.slider16 .slider-wrapper .content .content_item .content_wrap .choose_r {
+  display: inline-block;
+  background-color: #fff;
+  padding: 15px 40px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003757}}
+.slider16 .slider-wrapper .content .content_item .content_wrap .choose_active {
+  border: 1px solid #ff4600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003761}}
+.slider16 .slider-wrapper .content .content_item .product_box {
+  font-size: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003765}}
+.slider16 .slider-wrapper .content .content_item .product_box input[type="radio"] {
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003768}}
+.slider16 .slider-wrapper .content .content_item .product_box p {
+  display: inline-block;
+  width: 50%;
+  margin: 15px 0;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003775}}
+.slider16 .slider-wrapper .content .content_item .product_box .productname:before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  display: inline-block;
+  left: -20px;
+  top: 5px;
+  border: 1px solid #ff4600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003790}}
+.slider16 .slider-wrapper .content .content_item p {
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #E4E3E4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003795}}
+.slider16 .slider-wrapper .content .content_item .site {
+  width: 100%;
+  font-size: 0;
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003799}}
+.slider16 .slider-wrapper .content .content_item .site .site_item {
+  width: 50%;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003804}}
+.slider16 .slider-wrapper .content .content_item .site .site_item input {
+  background-color: #fff;
+  border: 1px solid #E4E3E4;
+  height: 40px;
+  width: 190px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003810}}
+.slider16 .slider-wrapper .content .content_item .site .site_item .detail_address {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003812}}
+.slider16 .slider-wrapper .content .content_item .site .site_item .detail_address label {
+  display: block;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003816}}
+.slider16 .slider-wrapper .content .content_item .site .site_item .detail_address input {
+  width: 475px;
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003821}}
+.slider16 .slider-wrapper .content .content_item .site .site_item p {
+  border-bottom: 0;
+  display: inline-block;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003825}}
+.slider16 .slider-wrapper .content .content_item .site .site_item p label {
+  display: block;
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003833}}
+.slider16 .slider-wrapper .content .content_item .site .site_item .leave_message:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003838}}
+.slider16 .slider-wrapper .content .content_item .site .site_item .leave_message label {
+  display: block;
+  margin-top: 45px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003841}}
+.slider16 .slider-wrapper .content .content_item .site .site_item .leave_message label:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003847}}
+.slider16 .slider-wrapper .content .content_item .site .site_item .leave_message textarea {
+  margin-top: 15px;
+  height: 250px;
+  width: 80%;
+  border: 1px solid  #ccc;
+  vertical-align: top;
+  overflow-x: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003862}}
+.slider16 .slider-wrapper .content .content_item input[type="text"] {
+  width: 60px;
+  height: 30px;
+  float: left;
+  margin-right: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-indent: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003872}}
+.slider16 .slider-wrapper .content .content_item h1 {
+  margin: 15px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003876}}
+.slider16 .slider-wrapper .content .content_item .content_mun:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003881}}
+.slider16 .slider-wrapper .content .content_item .content_mun .plus,
+.slider16 .slider-wrapper .content .content_item .content_mun .minus {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  margin-right: 20px;
+  background-image: url(http://fe.ibaixiong.com/shop/image/add_miuns_btn.png);
+  float: left;
+  cursor: pointer;
+  background-color: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003893}}
+.slider16 .slider-wrapper .content .content_item .content_mun .plus {
+  background-position: -36px 0;
+}
+@keyframes width {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003903}}
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003904}}
+  30% {
+    opacity: 0.75;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003905}}
+  60% {
+    opacity: 0.50;
+    transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003906}}
+  90% {
+    opacity: 0.25;
+    transform: scale(4.5);
+    -webkit-transform: scale(4.5);
+    -moz-transform: scale(4.5);
+    -o-transform: scale(4.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003907}}
+  100% {
+    opacity: 0;
+    transform: scale(5);
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    -o-transform: scale(5);
+  }
+}
+@-moz-keyframes width {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003912}}
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003913}}
+  30% {
+    opacity: 0.75;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003914}}
+  60% {
+    opacity: 0.50;
+    transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003915}}
+  90% {
+    opacity: 0.25;
+    transform: scale(4.5);
+    -webkit-transform: scale(4.5);
+    -moz-transform: scale(4.5);
+    -o-transform: scale(4.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003916}}
+  100% {
+    opacity: 0;
+    transform: scale(5);
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    -o-transform: scale(5);
+  }
+}
+@-webkit-keyframes width {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003921}}
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003922}}
+  30% {
+    opacity: 0.75;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003923}}
+  60% {
+    opacity: 0.50;
+    transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003924}}
+  90% {
+    opacity: 0.25;
+    transform: scale(4.5);
+    -webkit-transform: scale(4.5);
+    -moz-transform: scale(4.5);
+    -o-transform: scale(4.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003925}}
+  100% {
+    opacity: 0;
+    transform: scale(5);
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    -o-transform: scale(5);
+  }
+}
+@-o-keyframes width {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003930}}
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003931}}
+  30% {
+    opacity: 0.75;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003932}}
+  60% {
+    opacity: 0.50;
+    transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003933}}
+  90% {
+    opacity: 0.25;
+    transform: scale(4.5);
+    -webkit-transform: scale(4.5);
+    -moz-transform: scale(4.5);
+    -o-transform: scale(4.5);
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Administrator\/Desktop\/壁画款html\/css\/index\.less}line{font-family:\00003934}}
+  100% {
+    opacity: 0;
+    transform: scale(5);
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    -o-transform: scale(5);
+  }
+}

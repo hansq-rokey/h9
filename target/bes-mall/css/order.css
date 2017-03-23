@@ -1,0 +1,61 @@
+           .order-container{padding: 30px 20px;position: relative;}
+.order-status{width: 100%;position: absolute;z-index: 9;}
+.order-status li{height:83px;margin-top: 0;margin-left:15px;width: 150px;float:left;}
+.order-status span{display: block;width: 100%; text-align:center;color: #999;line-height: 40px;}
+.order-status em{font-style: normal;display: block;line-height: 40px;text-align: center;font-size: 12px;color: #999;}
+.sline{width: 860px;height: 0;border-bottom: 3px solid #dedede;position: absolute;top:70px;left: 40px;z-index: 7;}
+.sline2{top:153px;display:none;}
+.order-status li.on span{color: #ff7d42;border-bottom: 3px solid #ff7d42;}
+.order{width: 100%;border: 1px solid #dcdcdc;margin-top: 100px;}
+.order h4{height: 38px;line-height: 38px;border-bottom: 1px solid #dcdcdc;background: #f7f7f7;padding: 0 10px;}
+.order-close{color: #ff6200;}
+.order-sp{width: 100%;*width:814px;padding-left: 35px;padding-bottom: 20px;position: relative;}
+.order-sp .sp{width: 690px;border-top: 1px solid #f0f0f0;padding: 20px 0;}
+.order-sp .sp.bt0{border-top: none;}
+.order-sp .sp img{display: block;width: 96px;height: 96px;float: left;margin-right: 20px;}
+.order-sp .sp span{display: block;float: left;height: 96px;line-height: 60px;}
+.order-sp .sp span.sp-name{width:340px;}
+.order-sp .sp span.sp-price{width:120px;}
+.order-sp .sp span.sp-count{width:100px;}
+.sp-right{width: 119px;border-left: 1px solid #dcdcdc;height: 100%;position: absolute;top: 0;right: 0;text-align: center;padding-top: 30px;*padding-top: 0px;}
+.sp-right span{line-height: 25px;}
+.sp-right .after-sale{padding-top:30px;color: #333;margin-bottom: 10px;}
+.sp-right .after-sale:hover{color: #ff6200;text-decoration: underline;}
+.sp-right .detail{color: #333;}
+.sp-right .detail:hover{color: #ff6200;text-decoration: underline;}
+.sp-right .detail_on{color: #ff6200;}
+.logistics-info{width: 119px;position: relative;text-align: center;}
+.logistics{z-index:80;width: 258px;*width:214px;font-size:12px;border: 1px solid #dcdcdc;background: #fff;padding: 20px;}
+.logistics-box{color:#666;z-index:80;width: 258px;*width:214px;font-size:12px;background: none;padding-top: 10px;position:absolute;top:18px;left:-119px;display:none;}
+.logistics h5{font-weight:normal;margin:0;font-size:12px;border-bottom: 1px solid #dcdcdc;line-height: 25px; height:30px;text-align: left;}
+.arrow{background: url(http://fe.ibaixiong.com/shop/image/arrow.png) center center no-repeat;width: 10px;height: 7px;display: block;position: absolute;top: 4px;left: 143px;}
+.logistics-list li{*width:180px;*overflow:hidden;list-style:none;margin: 15px 0 0 10px;color:#999;padding-right: 20px;padding-left:14px;background: url(http://fe.ibaixiong.com/shop/image/logistics-listlibg.png) no-repeat 0 9px;}
+.logistics-list li:nth-child(1){color:#ff6200;*width:180px;*overflow:hidden;list-style:none;margin: 15px 0 0 10px;padding-right: 20px;padding-left:14px;background: url(../../images/order-style.png) no-repeat 0 9px;}
+.order-address,.order-address{margin-bottom:0;line-height:18px;}
+.logistics-list p{width: 100%;text-align: left;float: none;padding-left:0;}
+.logistics-list li.now{background: url(http://fe.ibaixiong.com/shop/image/logistics-listlibgcurrent.png) no-repeat 0 6px;}
+.logistics-list li.now p{color: #ff6200;}
+.order-info{width: 100%;*width:809px;border-top: 1px solid #dcdcdc;padding:35px;}
+.order-info h6{color: #333;font-size: 14px;margin-bottom: 30px;}
+.order-info p{line-height: 20px;font-size: 12px;}
+.order-info span{color: #ff7d42;padding-left: 5px;}
+.order-info p em{font-style: normal;width: 80px;}
+.order-info p em.yf{letter-spacing: 12px;}
+.order-info-log{margin-left: 160px;}
+.order-nav li{width: 100px;float: left;text-align: center;height: 40px;color: #999;}
+.order-nav li.on{color: #333;border-bottom: 2px solid #ff7d42;}
+.order-list{margin-top: 30px;}
+.order input{margin-right: 5px;display: inline-block;}
+.order-info-money{
+	width:150px;
+}
+.order-info-log{
+	width:400px;
+}
+.logistics-list{
+	height:auto;
+	max-height:234px;
+}
+.detail_on a:hover{
+	text-decoration: none;
+}

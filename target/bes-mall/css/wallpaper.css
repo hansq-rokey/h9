@@ -1,0 +1,1175 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei","微软雅黑","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,sans-serif;
+}
+body,html{
+    width: 100%;
+    height:100%;
+    max-width: 1920px;
+    margin:0 auto;
+}
+li{
+    list-style: none;
+}
+a,input{outline:none;}
+a{
+    text-decoration: none;
+    color:#333333;
+}
+/*顶部样式*/
+header{
+    height:70px;
+    width: 100%;
+    background: #393e43;
+    line-height: 60px;
+    z-index: 9999;
+    transition: background 0.8s;
+    -moz-transition: background 0.8s;
+    -webkit-transition: background 0.8s;
+    -o-transition: background 0.8s;
+}
+input[type=button]{
+    border:none;
+}
+input[type=button]:hover{
+    opacity: 0.9;
+}
+.row{
+    margin:20px 0;
+    padding:0 50px;
+}
+.row div{
+    padding: 0;
+}
+.kefu{color:#fff;height:30px;width:150px;backgroud:url('http://fe.ibaixiong.com/shop/images/qqonline.png');background-color:#ff6200;background-position:5px 5px;margin-top:16px;padding-left:26px;}
+
+.navbox{
+    width: 1200px;
+    height:70px;
+    margin:0 auto;
+}
+.indexlogo{
+    height:27px;
+    vertical-align: top;
+    margin-top:23px;
+}
+.headnav{
+    width:1000px;
+    float: right;
+    text-align: right;
+    color:#000;
+}
+.headnav li{
+    display: inline-block;
+    line-height:70px;
+    float:right;
+    margin-left:40px;
+}
+.headnav li a{
+    display: block;
+    line-height:70px;
+    color:#fff;
+    font-family:"微软雅黑";
+}
+.headnav li a.registerlink{
+    padding-left:10px;
+}
+.headnav li span{
+    font-size: 10px;
+    color:#fff;
+}
+.content,.content-nav-box{
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+}
+.navbg{
+    width: 100%;
+    height:78px;
+    background: #fff;
+}
+.content-box{
+    width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.content-nav{
+    width: 1200px;
+    height:70px;
+    padding:10px 0;
+}
+.fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    opacity: 0.8;
+}
+.prodtitle{
+    display: inline-block;
+    width: 400px;
+    float: left;
+    font-size:20px;
+    color:#141414;
+    line-height:58px;
+    margin-top:10px;
+}
+.content-nav ul{
+    width:700px;
+    float: right;
+    text-align: right;
+    height: 58px;
+    line-height:58px;
+    margin: 0;
+}
+.content-nav ul a{
+    font-family:"微软雅黑";
+}
+.content-nav ul li{
+    display: inline-block;
+    padding:0 16px;
+    line-height:30px;
+}
+.content-nav ul li a:hover,.headnav li .person p a:hover,.content-nav ul li a.on{
+    color:#ff6200;
+}
+.prodinforbox{
+    width: 100%;
+    overflow: hidden;
+}
+.select{
+    display: block;
+}
+/*������Ʒ*/
+.headnav li a.dark{
+    color:#333;
+}
+.prodbox{
+    height:0px;
+    width: 100%;
+    position: absolute;
+    top:70px;
+    right:0;
+    background: #fff;
+    overflow: hidden;
+    transition: all 0.6s;
+    -moz-transition: all 0.6s;	/* Firefox 4 */
+    -webkit-transition: all 0.6s;	/* Safari �� Chrome */
+    -o-transition: all 0.6s;	/* Opera */
+    border-bottom:1px solid #dcdcdc;
+    z-index: 99;
+}
+.prodhover:hover .prodbox{
+    height:122px;
+}
+.prodlist{
+    width: 1080px;
+    height:122px;
+    margin:0 auto;
+    text-align: right;
+}
+.prodlist div{
+    width: 132px;
+    height:122px;
+    text-align: center;
+    float: right;
+}
+.prodliatbox{
+    transition: all 1s;
+    -moz-transition: all 1s;	/* Firefox 4 */
+    -webkit-transition: all 1s;	/* Safari �� Chrome */
+    -o-transition: all 1s;	/* Opera */
+}
+.prodlist div img{
+    width: 80px;
+    height:80px;
+}
+.prodlist div p{
+    line-height:18px;
+    font-size:14px;
+    margin-top:5px;
+}
+/*ͼ��*/
+.tc{
+    text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.tr{
+    text-align: right;
+}
+.largeSize{
+    font-size:42px;
+    font-family: 'SourceHanSansCN-ExtraLight';
+    font-weight: 100;
+}
+.normalSize{
+    font-size:24px;
+    font-weight:lighter;
+}
+.smallSize{
+    font-size:16px;
+    font-family:"΢���ź�";
+    line-height:26px;
+
+}
+
+.smallerSize{
+    font-size:20px;
+}
+.dark{
+    color:#666;
+}
+.dark{
+    color:#333;
+}
+.redword{
+    color:#ff6200;
+    font-size:40px;
+    font-family:"Microsoft YaHei";
+    /*font-weight:bold;*/
+}
+.light{
+    color:#999;
+}
+.line{
+    height:100px;
+    width:1px;
+    background:#8c7353;
+}
+.blueword{
+    color:#489bf0;
+}
+.whiteword{
+    color:#fff;
+}
+.goldword{
+    color:#e0c6a1;
+}
+.space{
+    display: inline-block;
+    width: 20px;
+    height:10px;
+}
+
+/*主体样式*/
+.tc{
+    text-align: center;
+}
+.larger{
+    font-size:48px;
+}
+.large{
+    font-size:30px;
+}
+.normal{
+    font-size:20px;
+}
+.small{
+    font-size:14px;
+}
+.red{
+    color:#ff6200;
+}
+.opa{
+    opacity: .7;
+}
+.opa6{
+    opacity: .7;
+}
+a:hover{
+    text-decoration: none;
+}
+.scroll-wrapper{
+    position:relative;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+.container{
+    position:absolute;
+    top:0;
+    width: 100%;
+    overflow: hidden;
+    transition-timing-function: ease-in-out;
+    padding:0;
+}
+.pages{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page1{
+    background:#fff;
+}
+.page5{
+    background-image:url("http://fe.ibaixiong.com/shop/images/wp1-6.png");
+}
+.page6{
+    background-image:url("http://fe.ibaixiong.com/shop/images/wp1-7.png");
+}
+.page7{
+    background-image:url("http://fe.ibaixiong.com/shop/images/wp1-8.png");
+}
+.page8{
+    background-image:url("http://fe.ibaixiong.com/shop/images/wp1-9.png");
+} 
+.content01,.content06{
+    position:absolute;
+    left:50%;
+    top:170px;
+    margin-left:-380px;
+    width: 760px;
+    height:380px;
+    z-index: 11;
+}
+.content01{
+    z-index: 11;
+}
+.content02{
+    z-index: 12;
+}
+.content03{
+    z-index: 13;
+}
+.content04{
+    z-index: 14;
+}
+.content05{
+    z-index: 15;
+}
+.bg1{
+    background-image: url('http://fe.ibaixiong.com/shop/images/wp1-1.jpg');
+    background-position: center;
+}
+.content06{
+    margin: auto;
+    left: 0;
+    top:0;
+    right:0;
+    bottom:0;
+    padding:50px;
+    display: none;
+    height:495px;
+    max-width: 965px;
+    width:965px;
+    z-index: 16;
+}
+.content01 .bg,.content05 .bg{
+    width: 760px;
+    height:380px;
+    background:#fff;
+    opacity: .5;
+}
+.content01 .textbox,.content05 .textbox{
+    position: absolute;
+    top:36px;
+    left:36px;
+    width: 688px;
+    height:308px;
+    opacity: 1;
+    background: url("http://fe.ibaixiong.com/shop/images/wp1-2.png");
+}
+.content01 .textbox .price{
+    font-size:66px;
+    color:#f02866;
+}
+.t11{
+    margin-top:48px;
+    line-height:100%;
+}
+.t12{
+    margin-top:38px;
+    line-height:100%;
+}
+.t13{
+    margin-top:50px;
+    line-height:100%;
+}
+.image11{
+    position:absolute;
+    left:-1620px;
+    bottom:-1450px;
+    width: 1220px;
+    height:2850px;
+    background:#ff0042;
+    transform-origin: right bottom;
+    z-index: 13;
+    transition: all .6s;
+    -moz-transition: all .6s;	/* Firefox 4 */
+    -webkit-transition: all .6s;	/* Safari 和 Chrome */
+    -o-transition: all .6s;
+    transform:rotate(25deg);
+	-webkit-transform:rotate(25deg);
+ 	-moz-transform:rotate(25deg);
+  	-o-transform:rotate(25deg);
+       
+}
+.image12{
+    position: absolute;
+    left: 50%;
+    top:190px;
+    margin-left:-666px;
+    width: 410px;
+    height:564px;
+    background:url("http://fe.ibaixiong.com/shop/images/wp1-3.png") center no-repeat;
+    z-index: 12;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 28.42px 0.58px rgba(0, 0, 0, 0.18),0px 1px 55.18px 6.82px rgba(0, 0, 0, 0.24);
+}
+.content02,.content03,.content04,.content05{
+    position: absolute;
+    left:50%;
+    top:270px;
+    margin-left:-220px;
+    max-width: 940px;
+    height:480px;
+   /*  display: none; */
+    z-index:99;
+}
+.content04{
+    top:210px;
+}
+.content05{
+	background:none;
+}
+.t14{
+    line-height: 100%;
+}
+.t15{
+    line-height: 100%;
+    margin-top:40px;
+}
+.t16{
+    line-height:20px;
+    padding:54px 180px;
+}
+.content02 .list,.content03 .list,.content04 .list,.content05 .list{
+    width: 100%;
+    margin-top:20px;
+}
+.content03 .list .item,.content04 .list .item,.content05 .list .item{
+    width: 33.33%;
+    float: left;
+}
+.content02 .list .item p,.content03 .list .item p,.content04 .list .item p,.content05 .list .item p{
+    line-height:160%;
+}
+.line{
+    width: 46px;
+    height:3px;
+    display: block;
+    background: #ff6200;
+    margin: 10px auto;
+}
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+}
+.bg2{
+    background: url("http://fe.ibaixiong.com/shop/images/wp1-1-1.png") center no-repeat;
+  /*   display: none; */
+    z-index: 12;
+}
+.bg3{
+	margin:auto;
+	right:0;
+	bottom:0;
+    background-image: url("http://fe.ibaixiong.com/shop/images/wp1-4.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    opacity: 0;
+    z-index: 13;
+    transition: width 10s,height 10s,left 4s,top 4s;
+}
+.image14,.image15{
+    position: absolute;
+    left: 50%;
+    top:190px;
+    margin-left:-666px;
+    width: 406px;
+    height:564px;
+    z-index: 112;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 28.42px 0.58px rgba(0, 0, 0, 0.18),0px 1px 55.18px 6.82px rgba(0, 0, 0, 0.24);
+    /* display: none; */
+    transition: all .6s;
+}
+.image13{
+    position: absolute;
+    left: 50%;
+    top:190px;
+    margin-left:-666px;
+    width: 406px;
+    height:564px;
+    z-index: 112;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 28.42px 0.58px rgba(0, 0, 0, 0.18),0px 1px 55.18px 6.82px rgba(0, 0, 0, 0.24);
+    transition: all .6s;
+    opacity: 1;
+}
+.line-box{
+    position: absolute;
+    left: 50%;
+    top:110px;
+    margin-left:-666px;
+    width: 290px;
+    height:150px;
+    z-index: 112;
+    transition: all .6s;
+}
+.line-box .line-vertical{
+    position: absolute;
+    margin:auto;
+    top:20px;
+    left: 0;
+    right:0;
+    width: 1px;
+    height:128px;
+    background: #000;
+    opacity: .1;
+}
+.line-box .word{
+    position: absolute;
+    margin:auto;
+    top:0px;
+    left: 0;
+    right:0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    opacity: .5;
+}
+.line-box-on .word{
+    color:#fff;
+    opacity: 1;
+}
+.line-box-on .line-vertical{
+    opacity: .3;
+}
+.box1{
+    margin-left:-616px;
+}
+.box2{
+    margin-left:-696px;
+}
+.box3{
+    margin-left:-776px;
+}
+.image13{
+    background:url("http://fe.ibaixiong.com/shop/images/wp1-3.png") center no-repeat;
+    margin-left:-666px;
+	border-radius:12px;
+}
+.image14{
+    background:url("http://image.ibaixiong.com/mall/2016/4/wp1-3-1.png") center no-repeat;
+    margin-left:-666px;
+	border-radius:12px;
+}
+.image15{
+    background:url("http://image.ibaixiong.com/mall/2016/4/wp1-3-2.png") center no-repeat;
+    margin-left:-666px;
+	border-radius:12px;
+}
+.bg4{
+    background-image:url("http://fe.ibaixiong.com/shop/images/wp1-5.jpg");
+    display: none;
+    z-index: 14;
+    width: 120%;
+    height:120%;
+}
+.whiteBg{
+    background: #fff;
+    opacity: .7;
+    display: none;
+    z-index: 14;
+}
+.bg6{
+    background:#000;
+    opacity: .67;
+    z-index: 16;
+}
+.content07,.content08,.content09{
+    position: absolute;
+    margin: auto;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    max-width: 1050px;
+    min-width:630px;
+    height:390px;
+    z-index: 16;
+    color:#fff;
+    opacity: .8;
+}
+.content08,.content09{
+    top:130px;
+    bottom: inherit;
+}
+.content09,.content02{
+   /*  width: 820px; */
+    color:#000;
+}
+.content09 .list .item,.content02 .list .item{
+    width: 20%;
+    text-align: center;
+    background-image: url("http://fe.ibaixiong.com/shop/images/icon_paper.png");
+    background-repeat:no-repeat;
+    padding-top:70px;
+    float: left;
+}
+.item1{
+    background-position:-0px -20px;
+}
+.item2{
+    background-position:-142px -20px;
+}
+.item3{
+    background-position:-280px -20px;
+}
+.item4{
+    background-position:-416px -20px;
+}
+.item5{
+    background-position:-550px -20px;
+}
+.item6{
+    background-position:-10px -210px;
+}
+.item7{
+    background-position:-142px -210px;
+}
+.item8{
+    background-position:-280px -210px;
+}
+.item9{
+    background-position:-416px -210px;
+}
+.item10{
+    background-position:-550px -210px;
+}
+.bg8{
+    width: 1080px;
+    height:100%;
+    transform:skew(-30deg,0deg);
+    background: #fff;
+    margin: auto;
+    bottom:0;
+    right:0;
+    opacity: .9;
+}
+.image51{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top:-170px;
+    margin-left:-960px;
+    z-index: 16;
+    width: 1382px;
+    height:732px;
+    background-image: url("http://fe.ibaixiong.com/shop/images/wp1-9-1.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.content07 p{
+    line-height: 160%;
+}
+.saveBg{
+	position:absolute;
+	top:212px;
+	left:50%;
+	margin-left:-469px;
+	width:886px;
+	height:261px;
+	background-image:url("http://fe.ibaixiong.com/shop/images/wp1-7-1.png");
+	background-position:center center;
+}
+.content06 .textbox,.content07 .textbox{
+    border:1px solid #b5b4b3;
+    background: none;
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.content06 .list,.content07 .list{
+    width: 100%;
+    padding:0 150px;
+    margin-top:40px;
+    overflow: hidden;
+}
+.content06 .list .item{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+.content06 .t11,.content06 .t12,.content06 .list{
+    margin-top:60px;
+}
+.content07 .list .item{
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+.content07 .list6 .item{
+    width: 33.33%;
+}
+.bg5{
+    background: #fff;
+    opacity: .7;
+}
+.imgbox4{
+    position: absolute;
+    width: 738px;
+    height:459px;
+    left: 50%;
+    top:382px;
+    margin-left:-615px;
+    z-index: 16;
+}
+/*右侧圆点*/
+.bullet{
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    right: 30px;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    display:none;
+}
+.bullet li{
+    width: 20px;
+    height: 16px;
+    display: block;
+    position: relative;
+    border: 0;
+    margin: 2px 0;
+    cursor: pointer;
+}
+.bullet li .after{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #6C6C6F;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+.bullet li .after:hover{
+    width: 15px;
+    height: 15px;
+    margin-top: -4px;
+    margin-left: -4px;
+    background: none;
+    border:2px solid #6C6C6F;
+}
+.bullet li.icon-circle-thin .after{
+    width: 15px;
+    height: 15px;
+    margin-top: -6px;
+    margin-left: -4px;
+    background: none;
+    border:2px solid #6C6C6F;
+}
+.imgbox4{
+    position: absolute;
+    top:381px;
+    left:50%;
+    margin-left:-616px;
+}
+.imgbox4 div{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 738px;
+    height:459px;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.imgbox4 div.image41{
+    background-image: url("http://fe.ibaixiong.com/shop/images/wp1-8-1.png");
+    width: 0;
+}
+.image42{
+    background-image: url("http://fe.ibaixiong.com/shop/images/wp1-8-2.png");
+    display: none;
+}
+.imgbox4 div.image43{
+    background-image: url("http://fe.ibaixiong.com/shop/images/wp1-8-3.png");
+    width: 0;
+}
+.image44{
+    background-image: url("http://fe.ibaixiong.com/shop/images/wp1-8-4.png");
+    display: none;
+}
+.imgbox4 div.image45{
+    background-image: url("http://fe.ibaixiong.com/shop/images/wp1-8-5.png");
+    width: 0;
+}
+.image46{
+    background-image: url("http://fe.ibaixiong.com/shop/images/wp1-8-6.png");
+    display: none;
+}
+/*.opacity{*/
+/*width: 100%;*/
+/*height:100%;*/
+/*background-image:url("../images/wp1-1.jpg");*/
+/*background-color:#fff;*/
+/*filter:url(blur.svg#blur);*/
+/*-webkit-filter: blur(30px);*/
+/*-moz-filter:blur(30px);*/
+/*-ms-filter:blur(30px);*/
+/*filter:blur(30px);*/
+/*filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false)*/
+/*}*/
+
+/*footer*/
+.bx-footer{
+    width: 100%;
+    overflow: hidden;
+}
+.footer-wrap{
+    width: 1080px;
+    margin:0 auto;
+    padding-top:20px;
+}
+.footer-wrap p{
+    color:#666;
+    font-weight:bold;
+    line-height:40px;
+    font-family:"Microsoft YaHei","微软雅黑";
+}
+.footer-wrap a{
+    color:#666;
+    line-height:28px;
+    font-family:"Microsoft YaHei","微软雅黑";
+}
+.wx{
+    position: relative;
+}
+.erweima{
+    width: 155px;
+    height:163px;
+    position: absolute;
+    left: 66px;
+    top:-15px;
+    display: none;
+    z-index: 9999;
+}
+.wx:hover .erweima{
+    display: block;
+}
+.tc{
+    text-align: center;
+}
+.mobilenum{
+    font-size:24px;
+    color:#333;
+}
+.mobileicon{
+    width: 19px;
+    height:27px;
+    display: inline-block;
+    background:url("../images/icon.png") -6px -27px no-repeat;
+    margin-top:4px;
+    margin-right:10px;
+}
+.footer-wrap p.footer-infor {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 70px;
+}
+/*弹窗*/
+input[type=text]{
+    height:40px;
+    border:1px solid #dcdcdc;
+    padding-left:10px;
+    width: 100%;
+}
+.pop{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 9998;
+    display: none;
+}
+.popbg{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 9998;
+    background: #000;
+    opacity: 0.5;
+}
+.poptitle{
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #dcdcdc;
+    text-align: left;
+    text-indent: 5px;
+    margin:0 15px;
+    margin-bottom:30px;
+}
+.closeicon,.closevideo{
+    width: 9px;
+    height:9px;
+    display: inline-block;
+    background:url("http://fe.ibaixiong.com/shop/images/icon.png") no-repeat -288px -12px;
+    float: right;
+    margin-right:12px;
+    margin-top:11px;
+    cursor: pointer;
+}
+.closevideo{
+    position: absolute;
+    width: 32px;
+    height:32px;
+    top:-30px;
+    display: inline-block;
+    background:url("http://fe.ibaixiong.com/shop/images/icon.png") no-repeat -318px -1px;
+    right:-30px;
+    z-index: 9999;
+    margin:0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.remind{
+    height:40px;
+    background:#1ecbf6;
+    color:#fff;
+    text-indent: 18px;
+    position: relative;
+    line-height:40px;
+    margin-bottom:10px;
+}
+.arrow{
+    width: 0px;
+    height:0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #1ecbf6;
+    position: absolute;
+    top:38px;
+    left:30px;
+}
+input.yzm-input{
+    width: 304px;
+    float: left;
+}
+.yzm-img{
+    width: 146px;
+    border:1px solid #dcdcdc;
+    border-left:0;
+    float: left;
+    height:40px;
+}
+.description{
+    width: 100%;
+    height:190px;
+    border:1px solid #dcdcdc;
+    padding:10px;
+}
+.sendinfor{
+    width: 100%;
+    height:40px;
+    border:none;
+    background:#ff6200;
+    color:#fff;
+}
+.layel {
+    width: 510px;
+    height: 570px;
+    background: #fff;
+    z-index: 9999;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -255px;
+    margin-top: -285px;
+}
+.qqonline:hover{
+	opacity:0.9;
+}
+input.usertime{
+    width: 80px;
+    border:none;
+    border-bottom:1px solid #dcdcdc;
+    text-align: center;
+}
+.km{
+	padding:0px;
+}
+.inforpro{
+	margin-left:145px;
+}
+.probt{
+	text-align:left;
+	width:116px;
+	float:left;
+}
+.pronr{
+	color:#999;
+}
+.bigword{
+	text-align:center;
+	font-size:24px;
+	padding-bottom:20px;
+	margin-top:35px;
+}
+.word{
+	text-align:center;
+	font-size:17px;
+	color:#999;
+	padding-bottom:40px;
+	padding-top:10px;
+}
+.imgbox{
+	text-align:center;
+}
+.imgbox img{
+	padding:0 25px;
+}
+.tm{
+	padding-bottom:14px;
+	border-bottom:1px solid #dcdcdc;
+}
+.inforpro p{
+	margin-bottom:10px;
+}
+#userInfo{
+	position:relative;
+}
+.person{
+	display:none;
+    position:absolute;
+    right:0;
+    z-index:98;
+    width:140px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    text-align:left;
+    padding:3px 10px;
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+	box-shadow:0 2px 3px rgba(0, 0, 0, 0.1);
+	top:66px;
+}
+#userInfo:hover .person{
+    display: block;
+}
+#userInfo:hover .sanjiao{
+    display: block;
+}
+.person img{
+	width:25px;
+	height:25px;
+	margin-right:8px;
+	border-radius: 50%;
+}
+.headnav li .person a{
+	margin:0px;
+	padding:0 0 0 3px;
+	line-height:28px;
+	color:#333;
+	cursor: pointer;
+}
+.headnav li .person p{
+	margin:0px;
+	line-height:28px;
+	border-bottom:1px solid #dcdcdc;
+}
+.sanjiao{
+	display: none;
+    position: absolute;
+    right:30px;
+    margin-left:-12px;
+    width: 15px;
+    height:15px;
+    transform:rotate(-135deg);
+    -ms-transform:rotate(-135deg); 	/* IE 9 */
+    -moz-transform:rotate(-135deg); 	/* Firefox */
+    -webkit-transform:rotate(-135deg); /* Safari å’Œ Chrome */
+    -o-transform:rotate(-135deg);
+    background-color: #fff;
+    z-index: 99;
+    top:58px;
+    box-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+/*修改新增*/
+.page3 .image13,
+.page3 .image14{
+    transform:rotateY(45deg);
+    -ms-transform:rotateY(45deg); 	/* IE 9 */
+    -moz-transform:rotateY(45deg); 	/* Firefox */
+    -webkit-transform:rotateY(45deg); /* Safari å’Œ Chrome */
+    -o-transform:rotateY(45deg);
+}
+.page3 .image13{
+    transform: perspective(1400px) rotateY(45deg);
+	margin-left:-666px;
+}
+.page3 .image14{
+	transform: perspective(1400px) rotateY(45deg);
+	margin-left:-746px;
+}
+.page3 .content02 .list{
+	width:100%;
+	overflow:hidden;
+}
+.page3 .content02 .list .item{
+	background-image:none;
+	width:33.33%;
+    float: left;
+}
+.page4 .content02{
+	max-width:940px;
+}
+.content06box{
+	position: absolute;
+    left: 50%;
+    top: 270px;
+    margin-left: -220px;
+    max-width: 940px;
+    height: 480px;
+    z-index: 99;
+}
+.content04box .item{
+	 width: 33.33%;
+    float: left;
+}
+.page4 .image14{
+    transform: perspective(1400px) rotateY(45deg);
+    margin-left: -666px;
+}

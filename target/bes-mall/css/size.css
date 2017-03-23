@@ -1,0 +1,21 @@
+.size-wrap {padding: 55px 50px;}
+.size-wrap h1{width:100%;line-height: 85px;font-size: 23px;color: #333;border-bottom: 1px solid #dcdcdc;}
+.size-wrap h1 span{color: #ff956b;padding-left: 30px;}
+.size-wrap h1 a{float: right;font-size: 14px;color: #999;}
+.size-wrap h1 a:hover{color: #ff6200;text-decoration: underline;}
+.size-top{width: 100%;height: 385px;padding-top: 20px;position: relative;}
+.size-top .size-img{width: 540px;height: 335px;float: left;margin-right: 120px;}
+.size-top .size-img img{display: block;width: 100%;height: 100%;}
+.size-top .threed{position: absolute;display: block;top: 20px;left: 500px;}
+.size-list{float: left;}
+.size-box{cursor: pointer;float: left;width: 120px;height: 90px;padding-top:10px;background: url(http://fe.ibaixiong.com/shop/image/outline.png) 0 0 no-repeat;margin-right: 10px;overflow: hidden;}
+.size-box p{line-height: 24px;text-align: center;color: #666;  margin: 0;}
+.size-box.on{background: url(http://fe.ibaixiong.com/shop/image/outline_on.png) 0 0 no-repeat;}
+.size-list h3{font-size: 20px;line-height: 60px;color: #666;}
+.size-num input{width: 77px;height: 36px;line-height: 36px;border: 1px solid #dcdcdc;text-align: center;margin: 0 10px;color: #333;}
+.size-list .new-orange-btn{margin-top: 30px;}
+.sizes{width: 300px;height: 70px;padding-left:20px;position: relative;float: left;padding-top: 20px;}
+.sizes .close{display: block;position: absolute;top: 18px;left:275px;width:10px;height:10px;background: url(http://fe.ibaixiong.com/shop/image/close.png) 0 0 no-repeat;}
+.sizes .close:hover{background: url(http://fe.ibaixiong.com/shop/image/close_hover.png) 0 0 no-repeat;}
+.sizes img{display: block;float: left;}
+.sizes p{width:197px;line-height: 50px;font-size: 12px;padding-left: 10px;color: #333;float: left;}

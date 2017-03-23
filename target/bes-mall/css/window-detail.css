@@ -1,0 +1,423 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","΢���ź�",Arial,sans-serif;
+}
+li{
+    list-style: none;
+}
+a,input{outline:none;}
+a{
+    text-decoration: none;
+    color:#333333;
+}
+a:hover{
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height:100%;
+    max-width:1920px;
+    margin:0 auto;
+}
+header{
+    height:60px;
+    width: 100%;
+    background: #393e43;
+    line-height: 60px;
+    z-index: 9999;
+    transition: background 0.8s;
+    -moz-transition: background 0.8s;
+    -webkit-transition: background 0.8s;
+    -o-transition: background 0.8s;
+}
+input[type=button]{
+    border:none;
+}
+input[type=button]:hover{
+    opacity: 0.9;
+}
+.row{
+    margin:10px 0;
+    padding:0 50px;
+}
+.row div{
+    padding: 0;
+}
+.navbox{
+    width: 1200px;
+    height:60px;
+    margin:0 auto;
+}
+.indexlogo{
+    height:45px;
+    vertical-align: top;
+    margin-top:5px;
+}
+.headnav{
+    width: 500px;
+    float: right;
+    text-align: right;
+    color:#000;
+}
+.headnav li{
+    display: inline-block;
+    line-height:60px;
+    float:right;
+}
+.headnav li a{
+    display: inline-block;
+    padding: 0 14px;
+    line-height:60px;
+    color:#fff;
+}
+.headnav li a:hover{
+	color:#ff6200;
+}
+.headnav li a.loginlink{
+    padding-right:10px;
+    padding-left:28px;
+}
+.headnav li a.registerlink{
+    padding-left:10px;
+}
+.headnav li span{
+    font-size: 10px;
+    color:#fff;
+}
+.content,.content-nav-box{
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+}
+.navbg{
+    width: 100%;
+    height:78px;
+    background: #fff;
+}
+.content-box{
+    width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.content-nav{
+    width: 1200px;
+    height:78px;
+    padding:10px 0;
+}
+.fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    opacity: 0.8;
+    z-index:9999;
+}
+.prodtitle{
+    display: inline-block;
+    width: 400px;
+    float: left;
+    font-size:16px;
+    color:#141414;
+    line-height:58px;
+}
+.content-nav ul{
+    width:700px;
+    float: right;
+    text-align: right;
+    margin-top:5px;
+}
+.content-nav ul li{
+    display: inline-block;
+    padding:0 16px;
+    line-height:30px;
+}
+.content-nav ul li a:hover,.content-nav ul li a.on{
+    color:#ff6200;
+}
+.prodinforbox{
+    width: 100%;
+    overflow: hidden;
+    display: none;
+}
+.select{
+    display: block;
+}
+/*������Ʒ*/
+.headnav li a.dark{
+    color:#333;
+}
+.prodbox{
+    height:0px;
+    width: 100%;
+    position: absolute;
+    top:60px;
+    right:0;
+    background: #fff;
+    overflow: hidden;
+    transition: all 0.6s;
+    -moz-transition: all 0.6s;	/* Firefox 4 */
+    -webkit-transition: all 0.6s;	/* Safari �� Chrome */
+    -o-transition: all 0.6s;	/* Opera */
+    border-bottom:1px solid #dcdcdc;
+    z-index: 99;
+}
+.prodhover:hover .prodbox{
+    height:122px;
+}
+.prodlist{
+    width: 1080px;
+    height:122px;
+    margin:0 auto;
+    text-align: right;
+}
+.prodlist div{
+    width: 132px;
+    height:122px;
+    text-align: center;
+    float: right;
+}
+.prodliatbox{
+    transition: all 1s;
+    -moz-transition: all 1s;	/* Firefox 4 */
+    -webkit-transition: all 1s;	/* Safari �� Chrome */
+    -o-transition: all 1s;	/* Opera */
+}
+.prodlist div img{
+    width: 80px;
+    height:80px;
+}
+.prodlist div p{
+    line-height:18px;
+    font-size:14px;
+    margin-top:5px;
+}
+/*ͼ��*/
+.section{
+    width: 100%;
+    height:800px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.section01{
+    background:url("http://fe.ibaixiong.com/shop/images/windowbg-1.png") center 0 no-repeat;
+    height:976px;
+}
+.section02{
+    background:url("http://fe.ibaixiong.com/shop/images/windowbg-2.png") center 0 no-repeat;
+}
+.section03{
+    background:url("http://fe.ibaixiong.com/shop/images/windowbg-3.png") center 0 no-repeat;
+}
+.section04{
+    background:url("http://fe.ibaixiong.com/shop/images/windowbg-4.png") center 0 no-repeat;
+}
+.section05{
+    background:url("http://fe.ibaixiong.com/shop/images/windowbg-5.png") center 0 no-repeat;
+}
+.section06{
+    background:url("http://fe.ibaixiong.com/shop/images/windowbg-6.png") center 0 no-repeat;
+}
+.section07{
+    background:url("http://fe.ibaixiong.com/shop/images/windowbg-7.png") center 0 no-repeat;
+}
+.btnbox{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top:388px;
+    padding-left:484px;
+}
+.price{
+    display: inline-block;
+    font-size:20px;
+}
+.yellow{
+    color:#ff6200;
+    margin-right:5px;
+}
+.buynow{
+    width: 124px;
+    height:36px;
+    background:#ff6200;
+    color:#fff;
+    margin-left:50px;
+}
+.buynowtop{
+    width: 90px;
+    height:30px;
+    background: #00a0e9;
+    color:#fff;
+    border:none;
+}
+.secimg21{
+    width: 1920px;
+    height:306px;
+    position: absolute;
+    bottom:0px;
+    left:50%;
+    margin-left:-960px;
+    z-index: 99;
+    opacity: 0;
+}
+.secimg41{
+    width: 310px;
+    height:310px;
+    position: absolute;
+    top:320px;
+    left:50%;
+    margin-left:237px;
+    z-index: 99;
+    opacity: 0;
+}
+.secimg42{
+    width: 310px;
+    height:310px;
+    position: absolute;
+    top:320px;
+    left:50%;
+    margin-left:237px;
+    z-index: 99;
+    opacity: 0;
+}
+.secimg43{
+    width: 310px;
+    height:310px;
+    position: absolute;
+    top:320px;
+    left:50%;
+    margin-left:237px;
+    z-index: 99;
+    opacity: 0;
+}
+.secimg44{
+    width: 0px;
+    height:170px;
+    position: absolute;
+    bottom:93px;
+    right:50%;
+    margin-right:-608px;
+    z-index: 99;
+    background-image: url("http://fe.ibaixiong.com/shop/images/window4-4.png");
+    background-position: right top;
+}
+.secimg45{
+    width: 145px;
+    height:38px;
+    position: absolute;
+    bottom:80px;
+    left:50%;
+    margin-left:220px;
+    z-index: 99;
+    opacity: 0;
+}
+.secimg46{
+    width: 732px;
+    height:800px;
+    position: absolute;
+    bottom:0px;
+    left:50%;
+    margin-left:228px;
+    z-index: 98;
+    opacity: 1;
+}
+.secimg51{
+    width: 747px;
+    height:479px;
+    position: absolute;
+    bottom:0px;
+    left:50%;
+    margin-left:100px;
+    z-index: 99;
+    opacity: 0;
+}
+.secimg61{
+    width: 694px;
+    height:262px;
+    position: absolute;
+    bottom:0px;
+    left:50%;
+    margin-left:-347px;
+    z-index: 99;
+    opacity: 0;
+}
+.secimg71{
+    width: 1920px;
+    height:800px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-1060px;
+    z-index: 99;
+    opacity: 0;
+}
+.secimg72{
+    width: 1920px;
+    height:800px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    z-index: 99;
+    margin-left:-760px;
+}
+/*footer*/
+.bx-footer{
+    width: 100%;
+    overflow: hidden;
+}
+.footer-wrap{
+    width: 1080px;
+    margin:0 auto;
+    padding-top:20px;
+}
+.footer-wrap p{
+    color:#666;
+    font-weight:bold;
+    line-height:40px;
+}
+.footer-wrap a{
+    color:#666;
+    line-height:28px;
+}
+.wx{
+    position: relative;
+}
+.erweima{
+    width: 155px;
+    height:163px;
+    position: absolute;
+    left: 66px;
+    top:-15px;
+    display: none;
+    z-index: 9999;
+}
+.wx:hover .erweima{
+    display: block;
+}
+.tc{
+    text-align: center;
+}
+.mobilenum{
+    font-size:24px;
+    color:#333;
+}
+.mobileicon{
+    width: 19px;
+    height:27px;
+    display: inline-block;
+    background:url("http://fe.ibaixiong.com/shop/images/icon.png") -6px -27px no-repeat;
+    margin-top:4px;
+    margin-right:10px;
+}
+.footer-wrap p.footer-infor {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 70px;
+}
+.qqonline:hover{
+	opacity:0.9;
+}

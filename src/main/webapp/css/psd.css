@@ -1,0 +1,8 @@
+.psd-container{padding: 30px 20px;}
+.psd-container p{margin-bottom: 10px;height: 40px;}
+.psd-container b{font-weight: normal;color: #ff7d42;line-height:40px;display: inline-block;vertical-align: top;}
+.psd-container p em{font-style: normal;line-height:40px;width: 185px;display: inline-block;vertical-align: top;}
+.psd-container span{min-width: 75px;line-height: 40px;display: inline-block;vertical-align: top;}
+.psd-container input{vertical-align: top;width: 298px;height: 38px;border: 1px solid #dcdcdc;padding-left: 3px;line-height: 38px;}
+.psd-container .sure-btn{width: 375px;padding-top: 10px;}
+.psd-container .sure-btn .new-orange-btn{height: 40px;line-height: 40px;padding: 0 40px;}
